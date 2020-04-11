@@ -1,7 +1,7 @@
 02\_create.R
 ================
 jek
-2020-04-10
+2020-04-11
 
   - [Create a Boilerplate `R`
     Package.](#create-a-boilerplate-r-package.)
@@ -77,8 +77,6 @@ pkg_create(
     ## Data script file path: /home/jek/scripts/r/build_boilerplatePackage/boilerplatePackage/data_raw/data_raw_galton.R
 
     ## ✔ Setting active project to '/home/jek/scripts/r/build_boilerplatePackage/boilerplatePackage'
-
-    ## ✔ Creating 'data/'
 
     ## ✔ Saving 'galton' to 'data/galton.rda'
 

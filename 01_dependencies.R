@@ -7,5 +7,5 @@ if (!require("rmarkdown")) {
 }
 remotes::install_github(
   repo = "jeksterslabds/jeksterslabRpkg",
-  ref = "develop"
+  ref = "master"
 )
