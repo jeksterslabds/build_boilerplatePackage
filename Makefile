@@ -14,7 +14,7 @@ all :
 	git init
 	git add -A
 	git commit -m "BUILD."
-	git push origin master
+	git push
 
 clean :
 	-(cd boilerplatePackage && git checkout master && git rm -rf \* && git commit -m "Automated clean." && git push origin master)
