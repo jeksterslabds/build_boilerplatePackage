@@ -150,7 +150,7 @@ pkg_build(
     ##   ─  preparing ‘boilerplatePackage’:
     ##    checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  installing the package to build vignettes
-    ##      creating vignettes ...  ✔  creating vignettes (903ms)
+    ##      creating vignettes ...  ✔  creating vignettes (932ms)
     ##   ─  checking for LF line-endings in source and make files and shell scripts
     ##   ─  checking for empty or unneeded directories
     ## ─  looking to see if a ‘data/datalist’ file should be added
@@ -164,7 +164,7 @@ pkg_build(
     ## ● _R_CHECK_FORCE_SUGGESTS_          : FALSE
     ## ● NOT_CRAN                          : true
     ## ── R CMD check ─────────────────────────────────────────────────────────────────
-    ##   ─  using log directory ‘/tmp/RtmpSjCpfg/boilerplatePackage.Rcheck’
+    ##   ─  using log directory ‘/tmp/Rtmp6I6kun/boilerplatePackage.Rcheck’
     ##   ─  using R version 3.6.3 (2020-02-29)
     ## ─  using platform: x86_64-pc-linux-gnu (64-bit)
     ## ─  using session charset: UTF-8
@@ -173,57 +173,57 @@ pkg_build(
     ## ─  this is package ‘boilerplatePackage’ version ‘0.9.0’
     ## ─  package encoding: UTF-8
     ##    checking package namespace information ...  ✔  checking package namespace information
-    ##    checking package dependencies ...  ✔  checking package dependencies (961ms)
+    ##    checking package dependencies ...  ✔  checking package dependencies (1.1s)
     ##    checking if this is a source package ...  ✔  checking if this is a source package
     ## ✔  checking if there is a namespace
     ##      checking for executable files ...  ✔  checking for executable files
     ##   ✔  checking for hidden files and directories
     ## ✔  checking for portable file names
     ##    checking for sufficient/correct file permissions ...  ✔  checking for sufficient/correct file permissions
-    ##    checking whether package ‘boilerplatePackage’ can be installed ...  ✔  checking whether package ‘boilerplatePackage’ can be installed (607ms)
+    ##    checking whether package ‘boilerplatePackage’ can be installed ...  ✔  checking whether package ‘boilerplatePackage’ can be installed (641ms)
     ##      checking installed package size ...  ✔  checking installed package size
     ##   ✔  checking package directory
-    ##      checking for future file timestamps ...  ✔  checking for future file timestamps (1.9s)
+    ##      checking for future file timestamps ...  ✔  checking for future file timestamps (2.1s)
     ##   ✔  checking ‘build’ directory
     ##    checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##    checking top-level files ...  ✔  checking top-level files
     ## ✔  checking for left-over files
     ##    checking index information ...  ✔  checking index information
-    ##      checking package subdirectories ...  ✔  checking package subdirectories
-    ##      checking R files for non-ASCII characters ...  ✔  checking R files for non-ASCII characters
-    ##      checking R files for syntax errors ...  ✔  checking R files for syntax errors
+    ##    checking package subdirectories ...  ✔  checking package subdirectories
+    ##    checking R files for non-ASCII characters ...  ✔  checking R files for non-ASCII characters
+    ##        checking R files for syntax errors ...  ✔  checking R files for syntax errors
     ##      checking whether the package can be loaded ...  ✔  checking whether the package can be loaded
-    ##      checking whether the package can be loaded with stated dependencies ...  ✔  checking whether the package can be loaded with stated dependencies
-    ##      checking whether the package can be unloaded cleanly ...  ✔  checking whether the package can be unloaded cleanly
+    ##    checking whether the package can be loaded with stated dependencies ...  ✔  checking whether the package can be loaded with stated dependencies
+    ##    checking whether the package can be unloaded cleanly ...  ✔  checking whether the package can be unloaded cleanly
     ##      checking whether the namespace can be loaded with stated dependencies ...  ✔  checking whether the namespace can be loaded with stated dependencies
-    ##        checking whether the namespace can be unloaded cleanly ...  ✔  checking whether the namespace can be unloaded cleanly
+    ##    checking whether the namespace can be unloaded cleanly ...  ✔  checking whether the namespace can be unloaded cleanly
     ##      checking loading without being on the library search path ...  ✔  checking loading without being on the library search path
     ##      checking dependencies in R code ...  ✔  checking dependencies in R code
-    ##    checking S3 generic/method consistency ...  ✔  checking S3 generic/method consistency (416ms)
-    ##      checking replacement functions ...  ✔  checking replacement functions
+    ##    checking S3 generic/method consistency ...  ✔  checking S3 generic/method consistency (420ms)
+    ##    checking replacement functions ...  ✔  checking replacement functions
     ##    checking foreign function calls ...  ✔  checking foreign function calls
     ##      checking R code for possible problems ...  ✔  checking R code for possible problems (1.2s)
-    ##    checking Rd files ...  ✔  checking Rd files
+    ##    checking      checking Rd files ...  ✔  checking Rd files
     ##      checking Rd metadata ...  ✔  checking Rd metadata
     ##      checking Rd line widths ...  ✔  checking Rd line widths
     ##      checking Rd cross-references ...  ✔  checking Rd cross-references
     ##      checking for missing documentation entries ...  ✔  checking for missing documentation entries
-    ##      checking for code/documentation mismatches ...  ✔  checking for code/documentation mismatches
-    ##      checking Rd \usage sections ...  ✔  checking Rd \usage sections (479ms)
+    ##    checking for code/documentation mismatches ...  ✔  checking for code/documentation mismatches
+    ##    checking Rd \usage sections ...  ✔  checking Rd \usage sections (502ms)
     ##      checking Rd contents ...  ✔  checking Rd contents
-    ##      checking for unstated dependencies in examples ...  ✔  checking for unstated dependencies in examples
+    ##    checking for unstated dependencies in examples ...  ✔  checking for unstated dependencies in examples
     ##      checking contents of ‘data’ directory ...  ✔  checking contents of ‘data’ directory
     ##      checking data for non-ASCII characters ...  ✔  checking data for non-ASCII characters
-    ##    checking data for ASCII and uncompressed saves ...  ✔  checking data for ASCII and uncompressed saves
+    ##        checking data for ASCII and uncompressed saves ...  ✔  checking data for ASCII and uncompressed saves
     ##      checking installed files from ‘inst/doc’ ...  ✔  checking installed files from ‘inst/doc’
     ##      checking files in ‘vignettes’ ...  ✔  checking files in ‘vignettes’
-    ##      checking examples ...  ✔  checking examples (342ms)
+    ##      checking examples ...  ✔  checking examples (362ms)
     ##      checking for unstated dependencies in ‘tests’ ...  ✔  checking for unstated dependencies in ‘tests’
-    ##        checking tests ...  ─  checking tests
-    ##      Running ‘testthat.R’    ✔  Running ‘testthat.R’ (993ms)
+    ##    checking tests ...  ─  checking tests
+    ##      Running ‘testthat.R’    ✔  Running ‘testthat.R’ (1.1s)
     ##      checking for unstated dependencies in vignettes ...  ✔  checking for unstated dependencies in vignettes (1.2s)
     ##   ✔  checking package vignettes in ‘inst/doc’
-    ##      checking re-building of vignette outputs ...  ✔  checking re-building of vignette outputs (637ms)
+    ##      checking re-building of vignette outputs ...  ✔  checking re-building of vignette outputs (693ms)
     ##   ✔  checking for detritus in the temp directory
     ##    
     ##    
@@ -236,7 +236,7 @@ pkg_build(
     ##   ─  building ‘boilerplatePackage_0.9.0.tar.gz’
     ##      
     ## Running /usr/lib64/R/bin/R CMD INSTALL \
-    ##   /tmp/RtmpSjCpfg/boilerplatePackage_0.9.0.tar.gz --install-tests 
+    ##   /tmp/Rtmp6I6kun/boilerplatePackage_0.9.0.tar.gz --install-tests 
     ## * installing to library ‘/home/jek/R/x86_64-pc-linux-gnu-library/3.6’
     ## * installing *source* package ‘boilerplatePackage’ ...
     ## ** using staged installation
