@@ -150,7 +150,7 @@ pkg_build(
     ##   ─  preparing ‘boilerplatePackage’:
     ##    checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  installing the package to build vignettes
-    ##      creating vignettes ...  ✔  creating vignettes (922ms)
+    ##      creating vignettes ...  ✔  creating vignettes (1.2s)
     ##   ─  checking for LF line-endings in source and make files and shell scripts
     ##   ─  checking for empty or unneeded directories
     ## ─  looking to see if a ‘data/datalist’ file should be added
@@ -164,8 +164,8 @@ pkg_build(
     ## ● _R_CHECK_FORCE_SUGGESTS_          : FALSE
     ## ● NOT_CRAN                          : true
     ## ── R CMD check ─────────────────────────────────────────────────────────────────
-    ##   ─  using log directory ‘/tmp/RtmpjVl6tn/boilerplatePackage.Rcheck’
-    ##   ─  using R version 3.6.3 (2020-02-29)
+    ##   ─  using log directory ‘/tmp/RtmpNCTswf/boilerplatePackage.Rcheck’
+    ##     ─  using R version 3.6.3 (2020-02-29)
     ## ─  using platform: x86_64-pc-linux-gnu (64-bit)
     ## ─  using session charset: UTF-8
     ##   ─  using options ‘--no-manual --as-cran’
@@ -174,42 +174,42 @@ pkg_build(
     ## ─  package encoding: UTF-8
     ##    checking package namespace information ...  ✔  checking package namespace information
     ##    checking package dependencies ...  ✔  checking package dependencies (1.1s)
-    ##    checking if this is a source package ...  ✔  checking if this is a source package
+    ##   ✔  checking if this is a source package
     ## ✔  checking if there is a namespace
     ##      checking for executable files ...  ✔  checking for executable files
-    ##    checking for hidden files and directories ...  ✔  checking for hidden files and directories
+    ##   ✔  checking for hidden files and directories
     ## ✔  checking for portable file names
-    ## ✔  checking for sufficient/correct file permissions
-    ##      checking whether package ‘boilerplatePackage’ can be installed ...  ✔  checking whether package ‘boilerplatePackage’ can be installed (740ms)
+    ##    checking for sufficient/correct file permissions ...  ✔  checking for sufficient/correct file permissions
+    ##      checking whether package ‘boilerplatePackage’ can be installed ...  ✔  checking whether package ‘boilerplatePackage’ can be installed (781ms)
     ##      checking installed package size ...  ✔  checking installed package size
-    ##   ✔  checking package directory
-    ##      checking for future file timestamps ...  ✔  checking for future file timestamps (1.8s)
+    ##      checking package directory ...  ✔  checking package directory
+    ##    checking for future file timestamps ...  ✔  checking for future file timestamps (1.4s)
     ##   ✔  checking ‘build’ directory
     ##    checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
-    ##    checking top-level files ...  ✔  checking top-level files
+    ##   ✔  checking top-level files
     ## ✔  checking for left-over files
     ##    checking index information ...  ✔  checking index information
     ##      checking package subdirectories ...  ✔  checking package subdirectories
-    ##    checking      checking R files for non-ASCII characters ...  ✔  checking R files for non-ASCII characters
-    ##      checking R files for syntax errors ...  ✔  checking R files for syntax errors
+    ##    checking R files for non-ASCII characters ...  ✔  checking R files for non-ASCII characters
+    ##    checking R files for syntax errors ...  ✔  checking R files for syntax errors
     ##      checking whether the package can be loaded ...  ✔  checking whether the package can be loaded
-    ##      checking whether the package can be loaded with stated dependencies ...  ✔  checking whether the package can be loaded with stated dependencies
-    ##      checking whether the package can be unloaded cleanly ...  ✔  checking whether the package can be unloaded cleanly
+    ##    checking whether the package can be loaded with stated dependencies ...  ✔  checking whether the package can be loaded with stated dependencies
+    ##    checking whether the package can be unloaded cleanly ...  ✔  checking whether the package can be unloaded cleanly
     ##      checking whether the namespace can be loaded with stated dependencies ...  ✔  checking whether the namespace can be loaded with stated dependencies
     ##      checking whether the namespace can be unloaded cleanly ...  ✔  checking whether the namespace can be unloaded cleanly
     ##      checking loading without being on the library search path ...  ✔  checking loading without being on the library search path
     ##      checking dependencies in R code ...  ✔  checking dependencies in R code
-    ##      checking S3 generic/method consistency ...  ✔  checking S3 generic/method consistency (562ms)
+    ##    checking S3 generic/method consistency ...  ✔  checking S3 generic/method consistency (563ms)
     ##      checking replacement functions ...  ✔  checking replacement functions
-    ##      checking foreign function calls ...  ✔  checking foreign function calls
-    ##      checking R code for possible problems ...  ✔  checking R code for possible problems (1.2s)
-    ##      checking Rd files ...  ✔  checking Rd files
+    ##    checking foreign function calls ...  ✔  checking foreign function calls
+    ##      checking R code for possible problems ...  ✔  checking R code for possible problems (1.6s)
+    ##    checking Rd files ...  ✔  checking Rd files
     ##      checking Rd metadata ...  ✔  checking Rd metadata
     ##      checking Rd line widths ...  ✔  checking Rd line widths
     ##      checking Rd cross-references ...  ✔  checking Rd cross-references
     ##      checking for missing documentation entries ...  ✔  checking for missing documentation entries
-    ##      checking for code/documentation mismatches ...  ✔  checking for code/documentation mismatches
-    ##      checking Rd \usage sections ...  ✔  checking Rd \usage sections (510ms)
+    ##    checking for code/documentation mismatches ...  ✔  checking for code/documentation mismatches
+    ##      checking Rd \usage sections ...  ✔  checking Rd \usage sections (659ms)
     ##      checking Rd contents ...  ✔  checking Rd contents
     ##      checking for unstated dependencies in examples ...  ✔  checking for unstated dependencies in examples
     ##      checking contents of ‘data’ directory ...  ✔  checking contents of ‘data’ directory
@@ -217,13 +217,13 @@ pkg_build(
     ##      checking data for ASCII and uncompressed saves ...  ✔  checking data for ASCII and uncompressed saves
     ##      checking installed files from ‘inst/doc’ ...  ✔  checking installed files from ‘inst/doc’
     ##      checking files in ‘vignettes’ ...  ✔  checking files in ‘vignettes’
-    ##      checking examples ...  ✔  checking examples (344ms)
+    ##      checking examples ...  ✔  checking examples (449ms)
     ##      checking for unstated dependencies in ‘tests’ ...  ✔  checking for unstated dependencies in ‘tests’
     ##      checking tests ...  ─  checking tests
-    ##      Running ‘testthat.R’    ✔  Running ‘testthat.R’ (1s)
-    ##      checking for unstated dependencies in vignettes ...  ✔  checking for unstated dependencies in vignettes (1.2s)
+    ##      Running ‘testthat.R’    ✔  Running ‘testthat.R’ (1.2s)
+    ##      checking for unstated dependencies in vignettes ...  ✔  checking for unstated dependencies in vignettes (1.4s)
     ##   ✔  checking package vignettes in ‘inst/doc’
-    ##      checking re-building of vignette outputs ...  ✔  checking re-building of vignette outputs (750ms)
+    ##      checking re-building of vignette outputs ...  ✔  checking re-building of vignette outputs (842ms)
     ##   ✔  checking for detritus in the temp directory
     ##    
     ##    
@@ -236,7 +236,7 @@ pkg_build(
     ##   ─  building ‘boilerplatePackage_0.9.0.tar.gz’
     ##      
     ## Running /usr/lib64/R/bin/R CMD INSTALL \
-    ##   /tmp/RtmpjVl6tn/boilerplatePackage_0.9.0.tar.gz --install-tests 
+    ##   /tmp/RtmpNCTswf/boilerplatePackage_0.9.0.tar.gz --install-tests 
     ## * installing to library ‘/home/jek/R/x86_64-pc-linux-gnu-library/3.6’
     ## * installing *source* package ‘boilerplatePackage’ ...
     ## ** using staged installation
