@@ -35,5 +35,17 @@ remotes::install_github(
 
     ## Using github PAT from envvar GITHUB_PAT
 
-    ## Skipping install of 'jeksterslabRpkg' from a github remote, the SHA1 (eeb39771) has not changed since last install.
-    ##   Use `force = TRUE` to force installation
+    ## Downloading GitHub repo jeksterslabds/jeksterslabRpkg@master
+
+    ## 
+    ##      checking for file ‘/tmp/RtmpyFf6rZ/remotes4a1fd3f71182d/jeksterslabds-jeksterslabRpkg-3f35aa8/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpyFf6rZ/remotes4a1fd3f71182d/jeksterslabds-jeksterslabRpkg-3f35aa8/DESCRIPTION’
+    ##   ─  preparing ‘jeksterslabRpkg’:
+    ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+    ##   ─  checking for LF line-endings in source and make files and shell scripts
+    ##   ─  checking for empty or unneeded directories
+    ##   ─  building ‘jeksterslabRpkg_0.9.0.tar.gz’
+    ##      
+    ## 
+
+    ## Installing package into '/home/jek/R/x86_64-pc-linux-gnu-library/3.6'
+    ## (as 'lib' is unspecified)
