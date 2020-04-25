@@ -1,7 +1,7 @@
 03\_build.R
 ================
 jek
-2020-04-23
+2020-04-25
 
   - [Build Package.](#build-package.)
       - [minimal = TRUE](#minimal-true)
@@ -110,8 +110,8 @@ pkg_build(
 
     ## output file: README.knit.md
 
-    ## /usr/bin/pandoc +RTS -K512m -RTS README.utf8.md --to gfm --from markdown+autolink_bare_uris+tex_math_single_backslash --output README.md --standalone --template /home/jek/R/x86_64-pc-linux-gnu-library/3.6/rmarkdown/rmarkdown/templates/github_document/resources/default.md 
-    ## /usr/bin/pandoc +RTS -K512m -RTS README.md --to html4 --from gfm --output README.html --standalone --self-contained --highlight-style pygments --template /home/jek/R/x86_64-pc-linux-gnu-library/3.6/rmarkdown/rmarkdown/templates/github_document/resources/preview.html --variable 'github-markdown-css:/home/jek/R/x86_64-pc-linux-gnu-library/3.6/rmarkdown/rmarkdown/templates/github_document/resources/github.css' --email-obfuscation none --metadata pagetitle=PREVIEW
+    ## /usr/bin/pandoc +RTS -K512m -RTS README.utf8.md --to gfm --from markdown+autolink_bare_uris+tex_math_single_backslash --output README.md --standalone --template /home/jek/R/x86_64-pc-linux-gnu-library/4.0.0/rmarkdown/rmarkdown/templates/github_document/resources/default.md 
+    ## /usr/bin/pandoc +RTS -K512m -RTS README.md --to html4 --from gfm --output README.html --standalone --self-contained --highlight-style pygments --template /home/jek/R/x86_64-pc-linux-gnu-library/4.0.0/rmarkdown/rmarkdown/templates/github_document/resources/preview.html --variable 'github-markdown-css:/home/jek/R/x86_64-pc-linux-gnu-library/4.0.0/rmarkdown/rmarkdown/templates/github_document/resources/github.css' --email-obfuscation none --metadata pagetitle=PREVIEW
 
     ## 
     ## Preview created: README.html
@@ -153,7 +153,6 @@ pkg_build(
     ##      creating vignettes ...  ✔  creating vignettes (1.2s)
     ##   ─  checking for LF line-endings in source and make files and shell scripts
     ##   ─  checking for empty or unneeded directories
-    ## ─  looking to see if a ‘data/datalist’ file should be added
     ##   ─  building ‘boilerplatePackage_0.9.0.tar.gz’
     ##      
     ## ── Checking ────────────────────────────────────────────── boilerplatePackage ──
@@ -164,67 +163,68 @@ pkg_build(
     ## ● _R_CHECK_FORCE_SUGGESTS_          : FALSE
     ## ● NOT_CRAN                          : true
     ## ── R CMD check ─────────────────────────────────────────────────────────────────
-    ##   ─  using log directory ‘/tmp/RtmpTp5DeG/boilerplatePackage.Rcheck’
-    ##   ─  using R version 3.6.3 (2020-02-29)
+    ##   ─  using log directory ‘/tmp/RtmpNPN22W/boilerplatePackage.Rcheck’
+    ##   ─  using R version 4.0.0 (2020-04-24)
     ## ─  using platform: x86_64-pc-linux-gnu (64-bit)
     ## ─  using session charset: UTF-8
     ##   ─  using options ‘--no-manual --as-cran’
     ##   ✔  checking for file ‘boilerplatePackage/DESCRIPTION’
     ## ─  this is package ‘boilerplatePackage’ version ‘0.9.0’
     ## ─  package encoding: UTF-8
-    ##    checking package namespace information ...  ✔  checking package namespace information
-    ##    checking package dependencies ...  ✔  checking package dependencies (1.2s)
+    ##   ✔  checking package namespace information
+    ##    checking package dependencies ...  ✔  checking package dependencies (1.1s)
     ##    checking if this is a source package ...  ✔  checking if this is a source package
     ## ✔  checking if there is a namespace
     ##      checking for executable files ...  ✔  checking for executable files
-    ##    checking for hidden files and directories ...  ✔  checking for hidden files and directories
+    ##   ✔  checking for hidden files and directories
     ## ✔  checking for portable file names
     ## ✔  checking for sufficient/correct file permissions
-    ##      checking whether package ‘boilerplatePackage’ can be installed ...  ✔  checking whether package ‘boilerplatePackage’ can be installed (786ms)
+    ##      checking whether package ‘boilerplatePackage’ can be installed ...  ✔  checking whether package ‘boilerplatePackage’ can be installed (853ms)
     ##      checking installed package size ...  ✔  checking installed package size
     ##   ✔  checking package directory
-    ##      checking for future file timestamps ...  ✔  checking for future file timestamps (1.6s)
+    ##      checking for future file timestamps ...  ✔  checking for future file timestamps (1.4s)
     ##   ✔  checking ‘build’ directory
     ##    checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
-    ##    checking top-level files ...  ✔  checking top-level files
+    ##   ✔  checking top-level files
     ## ✔  checking for left-over files
     ##    checking index information ...  ✔  checking index information
     ##      checking package subdirectories ...  ✔  checking package subdirectories
     ##    checking R files for non-ASCII characters ...  ✔  checking R files for non-ASCII characters
-    ##    checking R files for syntax errors ...  ✔  checking R files for syntax errors
+    ##      checking R files for syntax errors ...  ✔  checking R files for syntax errors
     ##    checking whether the package can be loaded ...  ✔  checking whether the package can be loaded
     ##      checking whether the package can be loaded with stated dependencies ...  ✔  checking whether the package can be loaded with stated dependencies
-    ##    checking whether the package can be unloaded cleanly ...  ✔  checking whether the package can be unloaded cleanly
+    ##      checking whether the package can be unloaded cleanly ...  ✔  checking whether the package can be unloaded cleanly
     ##      checking whether the namespace can be loaded with stated dependencies ...  ✔  checking whether the namespace can be loaded with stated dependencies
     ##      checking whether the namespace can be unloaded cleanly ...  ✔  checking whether the namespace can be unloaded cleanly
     ##      checking loading without being on the library search path ...  ✔  checking loading without being on the library search path
     ##      checking dependencies in R code ...  ✔  checking dependencies in R code
-    ##    checking S3 generic/method consistency ...  ✔  checking S3 generic/method consistency (560ms)
+    ##      checking S3 generic/method consistency ...  ✔  checking S3 generic/method consistency (511ms)
     ##    checking replacement functions ...  ✔  checking replacement functions
-    ##    checking foreign function calls ...  ✔  checking foreign function calls
-    ##    checking R code for possible problems ...  ✔  checking R code for possible problems (1.6s)
+    ##        checking foreign function calls ...  ✔  checking foreign function calls
+    ##      checking R code for possible problems ...  ✔  checking R code for possible problems (1.3s)
     ##    checking Rd files ...  ✔  checking Rd files
-    ##        checking Rd metadata ...  ✔  checking Rd metadata
+    ##      checking Rd metadata ...  ✔  checking Rd metadata
     ##      checking Rd line widths ...  ✔  checking Rd line widths
     ##      checking Rd cross-references ...  ✔  checking Rd cross-references
-    ##      checking for missing documentation entries ...  ✔  checking for missing documentation entries
-    ##      checking for code/documentation mismatches ...  ✔  checking for code/documentation mismatches
-    ##      checking Rd \usage sections ...  ✔  checking Rd \usage sections (639ms)
+    ##    checking for missing documentation entries ...  ✔  checking for missing documentation entries
+    ##        checking for code/documentation mismatches ...  ✔  checking for code/documentation mismatches
+    ##      checking Rd \usage sections ...  ✔  checking Rd \usage sections (565ms)
     ##      checking Rd contents ...  ✔  checking Rd contents
     ##      checking for unstated dependencies in examples ...  ✔  checking for unstated dependencies in examples
     ##      checking contents of ‘data’ directory ...  ✔  checking contents of ‘data’ directory
     ##      checking data for non-ASCII characters ...  ✔  checking data for non-ASCII characters
-    ##    checking data for ASCII and uncompressed saves ...  ✔  checking data for ASCII and uncompressed saves
+    ##      checking data for ASCII and uncompressed saves ...  ✔  checking data for ASCII and uncompressed saves
     ##      checking installed files from ‘inst/doc’ ...  ✔  checking installed files from ‘inst/doc’
     ##      checking files in ‘vignettes’ ...  ✔  checking files in ‘vignettes’
-    ##      checking examples ...  ✔  checking examples (445ms)
+    ##      checking examples ...  ✔  checking examples (394ms)
     ##      checking for unstated dependencies in ‘tests’ ...  ✔  checking for unstated dependencies in ‘tests’
     ##      checking tests ...  ─  checking tests
-    ##      Running ‘testthat.R’    ✔  Running ‘testthat.R’ (1.3s)
-    ##      checking for unstated dependencies in vignettes ...  ✔  checking for unstated dependencies in vignettes (1.5s)
-    ##   ✔  checking package vignettes in ‘inst/doc’
-    ##      checking re-building of vignette outputs ...  ✔  checking re-building of vignette outputs (852ms)
-    ##   ✔  checking for detritus in the temp directory
+    ##      Running ‘testthat.R’    ✔  Running ‘testthat.R’ (1.2s)
+    ##      checking for unstated dependencies in vignettes ...  ✔  checking for unstated dependencies in vignettes (1.4s)
+    ##      checking package vignettes in ‘inst/doc’ ...  ✔  checking package vignettes in ‘inst/doc’
+    ##      checking re-building of vignette outputs ...  ✔  checking re-building of vignette outputs (717ms)
+    ##   ✔  checking for non-standard things in the check directory
+    ## ✔  checking for detritus in the temp directory
     ##    
     ##    
     ##      checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’ ...  ✔  checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’
@@ -232,12 +232,11 @@ pkg_build(
     ##    checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  checking for LF line-endings in source and make files and shell scripts
     ##   ─  checking for empty or unneeded directories
-    ## ─  looking to see if a ‘data/datalist’ file should be added
-    ##   ─  building ‘boilerplatePackage_0.9.0.tar.gz’
+    ## ─  building ‘boilerplatePackage_0.9.0.tar.gz’
     ##      
     ## Running /usr/lib64/R/bin/R CMD INSTALL \
-    ##   /tmp/RtmpTp5DeG/boilerplatePackage_0.9.0.tar.gz --install-tests 
-    ## * installing to library ‘/home/jek/R/x86_64-pc-linux-gnu-library/3.6’
+    ##   /tmp/RtmpNPN22W/boilerplatePackage_0.9.0.tar.gz --install-tests 
+    ## * installing to library ‘/home/jek/R/x86_64-pc-linux-gnu-library/4.0.0’
     ## * installing *source* package ‘boilerplatePackage’ ...
     ## ** using staged installation
     ## ** R
@@ -267,6 +266,7 @@ pkg_build(
     ## ── Building articles ───────────────────────────────────────────────────────────
     ## Reading 'vignettes/boilerplatePackage.Rmd'
     ## Reading 'vignettes/z.Rmd'
+    ## Writing 'articles/z.html'
     ## ── Building news ───────────────────────────────────────────────────────────────
     ## ══ DONE ════════════════════════════════════════════════════════════════════════
 

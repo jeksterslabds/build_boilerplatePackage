@@ -1,7 +1,7 @@
 01\_dependencies.R
 ================
 jek
-2020-04-23
+2020-04-25
 
 ``` r
 repos <- "https://cran.rstudio.org"
@@ -38,7 +38,7 @@ remotes::install_github(
     ## Downloading GitHub repo jeksterslabds/jeksterslabRpkg@master
 
     ## 
-    ##      checking for file ‘/tmp/RtmpPIycbA/remotes6268042d8ce38/jeksterslabds-jeksterslabRpkg-5eb56c8/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpPIycbA/remotes6268042d8ce38/jeksterslabds-jeksterslabRpkg-5eb56c8/DESCRIPTION’
+    ##      checking for file ‘/tmp/RtmpxE3Vmv/remotes2f0bf7be3dd64/jeksterslabds-jeksterslabRpkg-3fb4762/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpxE3Vmv/remotes2f0bf7be3dd64/jeksterslabds-jeksterslabRpkg-3fb4762/DESCRIPTION’
     ##   ─  preparing ‘jeksterslabRpkg’:
     ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  checking for LF line-endings in source and make files and shell scripts
@@ -47,5 +47,5 @@ remotes::install_github(
     ##      
     ## 
 
-    ## Installing package into '/home/jek/R/x86_64-pc-linux-gnu-library/3.6'
+    ## Installing package into '/home/jek/R/x86_64-pc-linux-gnu-library/4.0.0'
     ## (as 'lib' is unspecified)
