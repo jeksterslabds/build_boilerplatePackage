@@ -1,7 +1,7 @@
 02\_create.R
 ================
 jek
-2020-04-28
+2020-05-01
 
   - [Create a Boilerplate `R`
     Package.](#create-a-boilerplate-r-package.)
