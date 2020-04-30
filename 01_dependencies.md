@@ -38,7 +38,7 @@ remotes::install_github(
     ## Downloading GitHub repo jeksterslabds/jeksterslabRpkg@master
 
     ## 
-    ##      checking for file ‘/tmp/RtmpNsXmSY/remotes5d80ce4b2a7d/jeksterslabds-jeksterslabRpkg-b9266c2/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpNsXmSY/remotes5d80ce4b2a7d/jeksterslabds-jeksterslabRpkg-b9266c2/DESCRIPTION’
+    ##      checking for file ‘/tmp/RtmpRs5xqg/remotes7a52d5adee01c/jeksterslabds-jeksterslabRpkg-a5462d8/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpRs5xqg/remotes7a52d5adee01c/jeksterslabds-jeksterslabRpkg-a5462d8/DESCRIPTION’
     ##   ─  preparing ‘jeksterslabRpkg’:
     ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  checking for LF line-endings in source and make files and shell scripts
@@ -47,5 +47,5 @@ remotes::install_github(
     ##      
     ## 
 
-    ## Installing package into '/home/jek/R/x86_64-pc-linux-gnu-library/4.0.0'
+    ## Installing package into '/home/jek/R/x86_64-pc-linux-gnu-library/4.0'
     ## (as 'lib' is unspecified)
