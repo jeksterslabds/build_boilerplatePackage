@@ -38,9 +38,9 @@ remotes::install_github(
     ## Downloading GitHub repo jeksterslabds/jeksterslabRpkg@master
 
     ## 
-    ##      checking for file ‘/tmp/RtmpXsvDNY/remotes5d60979a0a191/jeksterslabds-jeksterslabRpkg-1af8d0c/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpXsvDNY/remotes5d60979a0a191/jeksterslabds-jeksterslabRpkg-1af8d0c/DESCRIPTION’
+    ##      checking for file ‘/tmp/RtmprrmcIh/remotes666634a6dc7c3/jeksterslabds-jeksterslabRpkg-186b76e/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmprrmcIh/remotes666634a6dc7c3/jeksterslabds-jeksterslabRpkg-186b76e/DESCRIPTION’
     ##   ─  preparing ‘jeksterslabRpkg’:
-    ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+    ##    checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  checking for LF line-endings in source and make files and shell scripts
     ##   ─  checking for empty or unneeded directories
     ##   ─  building ‘jeksterslabRpkg_0.9.0.tar.gz’
