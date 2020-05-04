@@ -1,9 +1,9 @@
 PREFIX=/media/jeksterslab/scripts/r
 YML=${PREFIX}/jeksterslabRpkg/inst/extdata/DESCRIPTION.yml
 
-.PHONY: all clean
+.PHONY: all clean rm
 
-all :
+all : rm
 	cp $(YML) $(shell pwd)
 	(cd boilerplatePackage && git pull)
 	Rscript -e 'rmarkdown::render("01_dependencies.R")'
@@ -16,8 +16,10 @@ all :
 	git commit -m "BUILD."
 	git push
 
-clean :
+clean : rm
 	-(cd boilerplatePackage && git checkout master && git rm -rf \* && git commit -m "Automated clean." && git push origin master)
+	
+rm :
 	-rm -rf DESCRIPTION.yml
 	-rm -rf *.html
 	-rm -rf *.md
