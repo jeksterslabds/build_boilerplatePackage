@@ -1,7 +1,7 @@
 03\_build.R
 ================
 jek
-2020-05-04
+2020-05-05
 
   - [Build Package.](#build-package.)
       - [minimal = TRUE](#minimal-true)
@@ -110,8 +110,8 @@ pkg_build(
 
     ## output file: README.knit.md
 
-    ## /usr/bin/pandoc +RTS -K512m -RTS README.utf8.md --to gfm --from markdown+autolink_bare_uris+tex_math_single_backslash --output README.md --standalone --template /home/jek/R/x86_64-pc-linux-gnu-library/4.0/rmarkdown/rmarkdown/templates/github_document/resources/default.md 
-    ## /usr/bin/pandoc +RTS -K512m -RTS README.md --to html4 --from gfm --output README.html --standalone --self-contained --highlight-style pygments --template /home/jek/R/x86_64-pc-linux-gnu-library/4.0/rmarkdown/rmarkdown/templates/github_document/resources/preview.html --variable 'github-markdown-css:/home/jek/R/x86_64-pc-linux-gnu-library/4.0/rmarkdown/rmarkdown/templates/github_document/resources/github.css' --email-obfuscation none --metadata pagetitle=PREVIEW
+    ## /usr/bin/pandoc +RTS -K512m -RTS README.utf8.md --to gfm --from markdown+autolink_bare_uris+tex_math_single_backslash --output README.md --standalone --template /home/jek/R/x86_64-pc-linux-gnu/4.0/rmarkdown/rmarkdown/templates/github_document/resources/default.md 
+    ## /usr/bin/pandoc +RTS -K512m -RTS README.md --to html4 --from gfm --output README.html --standalone --self-contained --highlight-style pygments --template /home/jek/R/x86_64-pc-linux-gnu/4.0/rmarkdown/rmarkdown/templates/github_document/resources/preview.html --variable 'github-markdown-css:/home/jek/R/x86_64-pc-linux-gnu/4.0/rmarkdown/rmarkdown/templates/github_document/resources/github.css' --email-obfuscation none --metadata pagetitle=PREVIEW
 
     ## 
     ## Preview created: README.html
@@ -148,12 +148,12 @@ pkg_build(
     ## ────────────────────────────────────────────────────────────────────────────────
     ##      checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’ ...  ✔  checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’
     ##   ─  preparing ‘boilerplatePackage’:
-    ##    checking DESCRIPTION meta-information     checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+    ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  installing the package to build vignettes
-    ##      creating vignettes ...  ✔  creating vignettes (1.1s)
+    ##      creating vignettes ...  ✔  creating vignettes (3.1s)
     ##   ─  checking for LF line-endings in source and make files and shell scripts
     ##   ─  checking for empty or unneeded directories
-    ##   ─  building ‘boilerplatePackage_0.9.0.tar.gz’
+    ## ─  building ‘boilerplatePackage_0.9.0.tar.gz’
     ##      
     ## ── Checking ────────────────────────────────────────────── boilerplatePackage ──
     ## Setting env vars:
@@ -163,7 +163,11 @@ pkg_build(
     ## ● _R_CHECK_FORCE_SUGGESTS_          : FALSE
     ## ● NOT_CRAN                          : true
     ## ── R CMD check ─────────────────────────────────────────────────────────────────
-    ##   ─  using log directory ‘/tmp/Rtmp97KI82/boilerplatePackage.Rcheck’
+    ##      User library path: /home/jek/R/x86_64-pc-linux-gnu/4.0 
+    ##    
+    ##      Added R_LIBS_USER to /home/jek/.Renviron 
+    ##    
+    ##   ─  using log directory ‘/tmp/RtmpJr5Qpc/boilerplatePackage.Rcheck’
     ##   ─  using R version 4.0.0 (2020-04-24)
     ## ─  using platform: x86_64-pc-linux-gnu (64-bit)
     ## ─  using session charset: UTF-8
@@ -172,43 +176,43 @@ pkg_build(
     ## ─  this is package ‘boilerplatePackage’ version ‘0.9.0’
     ## ─  package encoding: UTF-8
     ##    checking package namespace information ...  ✔  checking package namespace information
-    ##    checking package dependencies ...  ✔  checking package dependencies (1s)
+    ##    checking package dependencies ...  ✔  checking package dependencies (1.1s)
     ##    checking if this is a source package ...  ✔  checking if this is a source package
     ## ✔  checking if there is a namespace
     ##      checking for executable files ...  ✔  checking for executable files
     ##   ✔  checking for hidden files and directories
-    ##      checking for portable file names ...  ✔  checking for portable file names
-    ##   ✔  checking for sufficient/correct file permissions
-    ##      checking whether package ‘boilerplatePackage’ can be installed ...  ✔  checking whether package ‘boilerplatePackage’ can be installed (784ms)
+    ## ✔  checking for portable file names
+    ##    checking for sufficient/correct file permissions ...  ✔  checking for sufficient/correct file permissions
+    ##    checking whether package ‘boilerplatePackage’ can be installed ...  ✔  checking whether package ‘boilerplatePackage’ can be installed (1.2s)
     ##      checking installed package size ...  ✔  checking installed package size
-    ##      checking package directory ...  ✔  checking package directory
-    ##    checking for future file timestamps ...  ✔  checking for future file timestamps (1.4s)
+    ##   ✔  checking package directory
+    ##      checking for future file timestamps ...  ✔  checking for future file timestamps (1.5s)
     ##   ✔  checking ‘build’ directory
     ##    checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
-    ##    checking top-level files ...  ✔  checking top-level files
+    ##   ✔  checking top-level files
     ## ✔  checking for left-over files
     ##    checking index information ...  ✔  checking index information
     ##      checking package subdirectories ...  ✔  checking package subdirectories
     ##    checking R files for non-ASCII characters ...  ✔  checking R files for non-ASCII characters
-    ##    checking R files for syntax errors ...  ✔  checking R files for syntax errors
+    ##      checking R files for syntax errors ...  ✔  checking R files for syntax errors
     ##      checking whether the package can be loaded ...  ✔  checking whether the package can be loaded
-    ##    checking whether the package can be loaded with stated dependencies ...  ✔  checking whether the package can be loaded with stated dependencies
+    ##      checking whether the package can be loaded with stated dependencies ...  ✔  checking whether the package can be loaded with stated dependencies
     ##      checking whether the package can be unloaded cleanly ...  ✔  checking whether the package can be unloaded cleanly
     ##      checking whether the namespace can be loaded with stated dependencies ...  ✔  checking whether the namespace can be loaded with stated dependencies
     ##      checking whether the namespace can be unloaded cleanly ...  ✔  checking whether the namespace can be unloaded cleanly
     ##      checking loading without being on the library search path ...  ✔  checking loading without being on the library search path
     ##      checking dependencies in R code ...  ✔  checking dependencies in R code
-    ##      checking S3 generic/method consistency ...  ✔  checking S3 generic/method consistency (452ms)
-    ##      checking replacement functions ...  ✔  checking replacement functions
-    ##        checking foreign function calls ...  ✔  checking foreign function calls
-    ##      checking R code for possible problems ...  ✔  checking R code for possible problems (1.2s)
+    ##      checking S3 generic/method consistency ...  ✔  checking S3 generic/method consistency (512ms)
+    ##    checking replacement functions ...  ✔  checking replacement functions
+    ##      checking foreign function calls ...  ✔  checking foreign function calls
+    ##      checking R code for possible problems ...  ✔  checking R code for possible problems (1.3s)
     ##      checking Rd files ...  ✔  checking Rd files
     ##      checking Rd metadata ...  ✔  checking Rd metadata
     ##      checking Rd line widths ...  ✔  checking Rd line widths
     ##      checking Rd cross-references ...  ✔  checking Rd cross-references
     ##      checking for missing documentation entries ...  ✔  checking for missing documentation entries
     ##      checking for code/documentation mismatches ...  ✔  checking for code/documentation mismatches
-    ##      checking Rd \usage sections ...  ✔  checking Rd \usage sections (505ms)
+    ##      checking Rd \usage sections ...  ✔  checking Rd \usage sections (516ms)
     ##      checking Rd contents ...  ✔  checking Rd contents
     ##      checking for unstated dependencies in examples ...  ✔  checking for unstated dependencies in examples
     ##      checking contents of ‘data’ directory ...  ✔  checking contents of ‘data’ directory
@@ -216,13 +220,13 @@ pkg_build(
     ##      checking data for ASCII and uncompressed saves ...  ✔  checking data for ASCII and uncompressed saves
     ##      checking installed files from ‘inst/doc’ ...  ✔  checking installed files from ‘inst/doc’
     ##      checking files in ‘vignettes’ ...  ✔  checking files in ‘vignettes’
-    ##      checking examples ...  ✔  checking examples (357ms)
+    ##      checking examples ...  ✔  checking examples (356ms)
     ##      checking for unstated dependencies in ‘tests’ ...  ✔  checking for unstated dependencies in ‘tests’
     ##      checking tests ...  ─  checking tests
     ##      Running ‘testthat.R’    ✔  Running ‘testthat.R’ (1.1s)
-    ##      checking for unstated dependencies in vignettes ...  ✔  checking for unstated dependencies in vignettes (1.2s)
+    ##      checking for unstated dependencies in vignettes ...  ✔  checking for unstated dependencies in vignettes (1.3s)
     ##      checking package vignettes in ‘inst/doc’ ...  ✔  checking package vignettes in ‘inst/doc’
-    ##      checking re-building of vignette outputs ...  ✔  checking re-building of vignette outputs (654ms)
+    ##      checking re-building of vignette outputs ...  ✔  checking re-building of vignette outputs (670ms)
     ##   ✔  checking for non-standard things in the check directory
     ## ✔  checking for detritus in the temp directory
     ##    
@@ -235,8 +239,8 @@ pkg_build(
     ## ─  building ‘boilerplatePackage_0.9.0.tar.gz’
     ##      
     ## Running /usr/lib64/R/bin/R CMD INSTALL \
-    ##   /tmp/Rtmp97KI82/boilerplatePackage_0.9.0.tar.gz --install-tests 
-    ## * installing to library ‘/home/jek/R/x86_64-pc-linux-gnu-library/4.0’
+    ##   /tmp/RtmpJr5Qpc/boilerplatePackage_0.9.0.tar.gz --install-tests 
+    ## * installing to library ‘/home/jek/R/x86_64-pc-linux-gnu/4.0’
     ## * installing *source* package ‘boilerplatePackage’ ...
     ## ** using staged installation
     ## ** R
@@ -244,14 +248,226 @@ pkg_build(
     ## *** moving datasets to lazyload DB
     ## ** tests
     ## ** byte-compile and prepare package for lazy loading
-    ## ** help
+    ## *   Trying 151.101.76.133:443...
+    ## * Connected to raw.githubusercontent.com (151.101.76.133) port 443 (#0)
+    ## * ALPN, offering h2
+    ## * ALPN, offering http/1.1
+    ## * successfully set certificate verify locations:
+    ## *   CAfile: /etc/ssl/certs/ca-certificates.crt
+    ##   CApath: none
+    ## * SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+    ## * ALPN, server accepted to use http/1.1
+    ## * Server certificate:
+    ## *  subject: C=US; ST=California; L=San Francisco; O=GitHub, Inc.; CN=www.github.com
+    ## *  start date: Mar 23 00:00:00 2017 GMT
+    ## *  expire date: May 13 12:00:00 2020 GMT
+    ## *  subjectAltName: host "raw.githubusercontent.com" matched cert's "*.githubusercontent.com"
+    ## *  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+    ## *  SSL certificate verify ok.
+    ## > GET /jeksterslabds/jeksterslabRutils/master/R/util_txt2file.R HTTP/1.1
+    ## Host: raw.githubusercontent.com
+    ## User-Agent: libcurl/7.70.0
+    ## Accept: */*
+    ## 
+    ## * Mark bundle as not supporting multiuse
+    ## < HTTP/1.1 200 OK
+    ## < Connection: keep-alive
+    ## < Content-Length: 1822
+    ## < Cache-Control: max-age=300
+    ## < Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+    ## < Content-Type: text/plain; charset=utf-8
+    ## < ETag: W/"2c9898846f040af02b65e860f4d32238bf26a3a8a282c8debdd82bff83cb0655"
+    ## < Strict-Transport-Security: max-age=31536000
+    ## < X-Content-Type-Options: nosniff
+    ## < X-Frame-Options: deny
+    ## < X-XSS-Protection: 1; mode=block
+    ## < Via: 1.1 varnish (Varnish/6.0)
+    ## < X-GitHub-Request-Id: C19E:464F:94519:AC257:5EB05C61
+    ## < Accept-Ranges: bytes
+    ## < Date: Mon, 04 May 2020 20:07:44 GMT
+    ## < Via: 1.1 varnish
+    ## < X-Served-By: cache-hkg17928-HKG
+    ## < X-Cache: MISS, HIT
+    ## < X-Cache-Hits: 0, 4
+    ## < X-Timer: S1588622865.874641,VS0,VE0
+    ## < Vary: Authorization,Accept-Encoding
+    ## < Access-Control-Allow-Origin: *
+    ## < X-Fastly-Request-ID: 10f99c69b51ae98d53670f626a88d5647c997613
+    ## < Expires: Mon, 04 May 2020 20:12:44 GMT
+    ## < Source-Age: 197
+    ## < 
+    ## * Connection #0 to host raw.githubusercontent.com left intact
+    ## User library path: /home/jek/R/x86_64-pc** help
+    ## -linux-gnu/4.0 
+    ## 
+    ## Added R_LIBS_USER to /home/jek/.Renviron 
+    ## 
     ## *** installing help indices
     ## ** building package indices
-    ## ** installing vignettes
+    ## *   Trying 151.101.76.133:443...
+    ## * Connected to raw.githubusercontent.com (151.101.76.133) port 443 (#0)
+    ## * ALPN, offering h2
+    ## * ALPN, offering http/1.1
+    ## * successfully set certificate verify locations:
+    ## *   CAfile: /etc/ssl/certs/ca-certificates.crt
+    ##   CApath: none
+    ## * SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+    ## * ALPN, server accepted to use http/1.1
+    ## * Server certificate:
+    ## *  subject: C=US; ST=California; L=San Francisco; O=GitHub, Inc.; CN=www.github.com
+    ## *  start date: Mar 23 00:00:00 2017 GMT
+    ## *  expire date: May 13 12:00:00 2020 GMT
+    ## *  subjectAltName: host "raw.githubusercontent.com" matched cert's "*.githubusercontent.com"
+    ## *  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+    ## *  SSL certificate verify ok.
+    ## > GET /jeksterslabds/jeksterslabRutils/master/R/util_txt2file.R HTTP/1.1
+    ## Host: raw.githubusercontent.com
+    ## User-Agent: libcurl/7.70.0
+    ## Accept: */*
+    ## 
+    ## * Mark bundle as not supporting multiuse
+    ## < HTTP/1.1 200 OK
+    ## < Connection: keep-alive
+    ## < Content-Length: 1822
+    ## < Cache-Control: max-age=300
+    ## < Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+    ## < Content-Type: text/plain; charset=utf-8
+    ## < ETag: W/"2c9898846f040af02b65e860f4d32238bf26a3a8a282c8debdd82bff83cb0655"
+    ## < Strict-Transport-Security: max-age=31536000
+    ## < X-Content-Type-Options: nosniff
+    ## < X-Frame-Options: deny
+    ## < X-XSS-Protection: 1; mode=block
+    ## < Via: 1.1 varnish (Varnish/6.0)
+    ## < X-GitHub-Request-Id: C19E:464F:94519:AC257:5EB05C61
+    ## < Accept-Ranges: bytes
+    ## < Date: Mon, 04 May 2020 20:07:45 GMT
+    ## < Via: 1.1 varnish
+    ## < X-Served-By: cache-hkg17925-HKG
+    ## < X-Cache: MISS, HIT
+    ## < X-Cache-Hits: 0, 6
+    ## < X-Timer: S1588622865.362804,VS0,VE0
+    ## < Vary: Authorization,Accept-Encoding
+    ## < Access-Control-Allow-Origin: *
+    ## < X-Fastly-Request-ID: a8611f46600e95e9fd8e5ddc6bddb8120744b1fc
+    ## < Expires: Mon, 04 May 2020 20:12:45 GMT
+    ## < Source-Age: 197
+    ## < 
+    ## * Connection #0 to host raw.githubusercontent.com left intact
+    ## User library path: /home/jek/R/x86_64-pc** installing vignettes
+    ## -linux-gnu/4.0 
+    ## 
+    ## Added R_LIBS_USER to /home/jek/.Renviron 
+    ## 
     ## ** testing if installed package can be loaded from temporary location
+    ## *   Trying 151.101.76.133:443...
+    ## * Connected to raw.githubusercontent.com (151.101.76.133) port 443 (#0)
+    ## * ALPN, offering h2
+    ## * ALPN, offering http/1.1
+    ## * successfully set certificate verify locations:
+    ## *   CAfile: /etc/ssl/certs/ca-certificates.crt
+    ##   CApath: none
+    ## * SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+    ## * ALPN, server accepted to use http/1.1
+    ## * Server certificate:
+    ## *  subject: C=US; ST=California; L=San Francisco; O=GitHub, Inc.; CN=www.github.com
+    ## *  start date: Mar 23 00:00:00 2017 GMT
+    ## *  expire date: May 13 12:00:00 2020 GMT
+    ## *  subjectAltName: host "raw.githubusercontent.com" matched cert's "*.githubusercontent.com"
+    ## *  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+    ## *  SSL certificate verify ok.
+    ## > GET /jeksterslabds/jeksterslabRutils/master/R/util_txt2file.R HTTP/1.1
+    ## Host: raw.githubusercontent.com
+    ## User-Agent: libcurl/7.70.0
+    ## Accept: */*
+    ## 
+    ## * Mark bundle as not supporting multiuse
+    ## < HTTP/1.1 200 OK
+    ## < Connection: keep-alive
+    ## < Content-Length: 1822
+    ## < Cache-Control: max-age=300
+    ## < Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+    ## < Content-Type: text/plain; charset=utf-8
+    ## < ETag: W/"2c9898846f040af02b65e860f4d32238bf26a3a8a282c8debdd82bff83cb0655"
+    ## < Strict-Transport-Security: max-age=31536000
+    ## < X-Content-Type-Options: nosniff
+    ## < X-Frame-Options: deny
+    ## < X-XSS-Protection: 1; mode=block
+    ## < Via: 1.1 varnish (Varnish/6.0)
+    ## < X-GitHub-Request-Id: C19E:464F:94519:AC257:5EB05C61
+    ## < Accept-Ranges: bytes
+    ## < Date: Mon, 04 May 2020 20:07:45 GMT
+    ## < Via: 1.1 varnish
+    ## < X-Served-By: cache-hkg17926-HKG
+    ## < X-Cache: MISS, HIT
+    ## < X-Cache-Hits: 0, 4
+    ## < X-Timer: S1588622866.823421,VS0,VE0
+    ## < Vary: Authorization,Accept-Encoding
+    ## < Access-Control-Allow-Origin: *
+    ## < X-Fastly-Request-ID: e8bafd132e5167b6136dd0da4859d9c5a98c0ace
+    ## < Expires: Mon, 04 May 2020 20:12:45 GMT
+    ## < Source-Age: 198
+    ## < 
+    ## * Connection #0 to host raw.githubusercontent.com left intact
+    ## User library path: /home/jek/R/x86_64-pc-linux-gnu/4.0 
+    ## 
+    ## Added R_LIBS_USER to /home/jek/.Renviron 
+    ## 
     ## ** testing if installed package can be loaded from final location
-    ## ** testing if installed package keeps a record of temporary installation path
+    ## *   Trying 151.101.76.133:443...
+    ## * Connected to raw.githubusercontent.com (151.101.76.133) port 443 (#0)
+    ## * ALPN, offering h2
+    ## * ALPN, offering http/1.1
+    ## * successfully set certificate verify locations:
+    ## *   CAfile: /etc/ssl/certs/ca-certificates.crt
+    ##   CApath: none
+    ## * SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+    ## * ALPN, server accepted to use http/1.1
+    ## * Server certificate:
+    ## *  subject: C=US; ST=California; L=San Francisco; O=GitHub, Inc.; CN=www.github.com
+    ## *  start date: Mar 23 00:00:00 2017 GMT
+    ## *  expire date: May 13 12:00:00 2020 GMT
+    ## *  subjectAltName: host "raw.githubusercontent.com" matched cert's "*.githubusercontent.com"
+    ## *  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+    ## *  SSL certificate verify ok.
+    ## > GET /jeksterslabds/jeksterslabRutils/master/R/util_txt2file.R HTTP/1.1
+    ## Host: raw.githubusercontent.com
+    ## User-Agent: libcurl/7.70.0
+    ## Accept: */*
+    ## 
+    ## * Mark bundle as not supporting multiuse
+    ## < HTTP/1.1 200 OK
+    ## < Connection: keep-alive
+    ## < Content-Length: 1822
+    ## < Cache-Control: max-age=300
+    ## < Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+    ## < Content-Type: text/plain; charset=utf-8
+    ## < ETag: W/"2c9898846f040af02b65e860f4d32238bf26a3a8a282c8debdd82bff83cb0655"
+    ## < Strict-Transport-Security: max-age=31536000
+    ## < X-Content-Type-Options: nosniff
+    ## < X-Frame-Options: deny
+    ## < X-XSS-Protection: 1; mode=block
+    ## < Via: 1.1 varnish (Varnish/6.0)
+    ## < X-GitHub-Request-Id: C19E:464F:94519:AC257:5EB05C61
+    ## < Accept-Ranges: bytes
+    ## < Date: Mon, 04 May 2020 20:07:46 GMT
+    ## < Via: 1.1 varnish
+    ## < X-Served-By: cache-hkg17935-HKG
+    ## < X-Cache: MISS, HIT
+    ## < X-Cache-Hits: 0, 2
+    ## < X-Timer: S1588622866.280654,VS0,VE0
+    ## < Vary: Authorization,Accept-Encoding
+    ## < Access-Control-Allow-Origin: *
+    ## < X-Fastly-Request-ID: 573783bc0da8ea554f3015dda92ca65fe7a38a66
+    ## < Expires: Mon, 04 May 2020 20:12:46 GMT
+    ## < Source-Age: 199
+    ## < 
+    ## * Connection #0 to host raw.githubusercontent.com left intact
+    ## User library path: /home/jek/R/x86_64-pc** testing if installed package keeps a record of temporary installation path
     ## * DONE (boilerplatePackage)
+    ## -linux-gnu/4.0 
+    ## 
+    ## Added R_LIBS_USER to /home/jek/.Renviron 
+    ## 
     ## ── Installing package into temporary library ───────────────────────────────────
     ## ══ Building pkgdown site ═══════════════════════════════════════════════════════
     ## Reading from: '/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage'
