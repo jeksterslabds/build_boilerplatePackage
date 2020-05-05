@@ -78,8 +78,6 @@ pkg_create(
 
     ## ✔ Setting active project to '/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage'
 
-    ## ✔ Creating 'data/'
-
     ## ✔ Saving 'galton' to 'data/galton.rda'
 
     ## ● Document your data (see 'https://r-pkgs.org/data.html')
@@ -118,7 +116,6 @@ pkg_create(
     ## ── Building articles ───────────────────────────────────────────────────────────
     ## Reading 'vignettes/boilerplatePackage.Rmd'
     ## Reading 'vignettes/z.Rmd'
-    ## Writing 'articles/z.html'
     ## ── Building news ───────────────────────────────────────────────────────────────
     ## ══ DONE ════════════════════════════════════════════════════════════════════════
 
