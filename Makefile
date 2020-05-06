@@ -22,4 +22,4 @@ clean : rm
 rm :
 	-rm -rf DESCRIPTION.yml
 	-rm -rf *.html
-	-rm -rf *.md
+	-rm -rf 0*.md
