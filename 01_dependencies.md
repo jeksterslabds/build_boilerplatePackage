@@ -16,17 +16,6 @@ if (!require("remotes")) {
     ## Loading required package: remotes
 
 ``` r
-if (!require("rmarkdown")) {
-  install.packages(
-    "rmarkdown",
-    repos = repos
-  )
-}
-```
-
-    ## Loading required package: rmarkdown
-
-``` r
 remotes::install_github(
   repo = "jeksterslabds/jeksterslabRpkg",
   ref = "master"
@@ -38,11 +27,11 @@ remotes::install_github(
     ## Downloading GitHub repo jeksterslabds/jeksterslabRpkg@master
 
     ## 
-    ##      checking for file ‘/tmp/Rtmp7C465j/remotes5200e22c7ecbb/jeksterslabds-jeksterslabRpkg-eeb7e91/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/Rtmp7C465j/remotes5200e22c7ecbb/jeksterslabds-jeksterslabRpkg-eeb7e91/DESCRIPTION’
+    ##      checking for file ‘/tmp/RtmpPVBrYe/remotes5e0613c6c0bdb/jeksterslabds-jeksterslabRpkg-6275f92/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpPVBrYe/remotes5e0613c6c0bdb/jeksterslabds-jeksterslabRpkg-6275f92/DESCRIPTION’
     ##   ─  preparing ‘jeksterslabRpkg’:
     ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  excluding invalid files
-    ##    Subdirectory 'R' contains invalid file names:
+    ##      Subdirectory 'R' contains invalid file names:
     ##      ‘.test.R’
     ##   ─  checking for LF line-endings in source and make files and shell scripts
     ##   ─  checking for empty or unneeded directories
