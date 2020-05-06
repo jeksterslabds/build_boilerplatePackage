@@ -1,7 +1,7 @@
 02\_create.R
 ================
 jek
-2020-05-06
+2020-05-07
 
   - [Create a Boilerplate `R`
     Package.](#create-a-boilerplate-r-package.)
@@ -117,6 +117,7 @@ pkg_create(
     ## Reading 'man/z.Rd'
     ## ── Building articles ───────────────────────────────────────────────────────────
     ## Reading 'vignettes/boilerplatePackage.Rmd'
+    ## Writing 'articles/boilerplatePackage.html'
     ## Reading 'vignettes/z.Rmd'
     ## Writing 'articles/z.html'
     ## ── Building news ───────────────────────────────────────────────────────────────
