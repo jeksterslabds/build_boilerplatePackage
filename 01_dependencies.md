@@ -35,5 +35,5 @@ remotes::install_github(
 
     ## Using github PAT from envvar GITHUB_PAT
 
-    ## Skipping install of 'jeksterslabRpkg' from a github remote, the SHA1 (7e087157) has not changed since last install.
+    ## Skipping install of 'jeksterslabRpkg' from a github remote, the SHA1 (f51fb57a) has not changed since last install.
     ##   Use `force = TRUE` to force installation
