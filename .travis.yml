@@ -1,0 +1,15 @@
+# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
+language: r
+r:
+- oldrel
+- release
+- devel
+os:
+- linux
+- osx
+install:
+- Rscript -e 'if (!require("rmarkdown")) install.packages("rmarkdown", repos = repos)'
+script:
+- Rscript -e 'rmarkdown::render("01_dependencies.R")'
+- Rscript -e 'rmarkdown::render("02_create.R")'
+- Rscript -e 'rmarkdown::render("03_build.R")'
