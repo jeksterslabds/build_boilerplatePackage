@@ -10,7 +10,6 @@ all : rm
 	Rscript -e 'rmarkdown::render("01_dependencies.R")'
 	Rscript -e 'rmarkdown::render("02_create.R")'
 	Rscript -e 'rmarkdown::render("03_build.R")'
-	rm -rf DESCRIPTION.yml
 	echo "See generated package in https://github.com/jeksterslabds/boilerplatePackage."
 	git init
 	git add -A
