@@ -601,7 +601,7 @@ body {
 <body>
 
 <h1 id="01_dependenciesr">01_dependencies.R</h1>
-<p>jek 2020-05-07</p>
+<p>jek 2020-05-08</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>repos &lt;-<span class="st"> &quot;https://cran.rstudio.org&quot;</span></span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="cf">if</span> (<span class="op">!</span><span class="kw">require</span>(<span class="st">&quot;remotes&quot;</span>)) {</span>
 <span id="cb1-3"><a href="#cb1-3"></a>  <span class="kw">install.packages</span>(</span>
@@ -617,8 +617,23 @@ body {
 <span id="cb3-4"><a href="#cb3-4"></a>)</span></code></pre></div>
 <pre><code>## Using github PAT from envvar GITHUB_PAT
 
-## Skipping install of &#39;jeksterslabRpkg&#39; from a github remote, the SHA1 (5c12db70) has not changed since last install.
-##   Use `force = TRUE` to force installation
+## Downloading GitHub repo jeksterslabds/jeksterslabRpkg@master
+
+## 
+##      checking for file ‘/tmp/RtmpLOnkcO/remotes6db4773c6265/jeksterslabds-jeksterslabRpkg-e726778/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpLOnkcO/remotes6db4773c6265/jeksterslabds-jeksterslabRpkg-e726778/DESCRIPTION’
+##   ─  preparing ‘jeksterslabRpkg’:
+##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+##   ─  excluding invalid files
+##      Subdirectory &#39;R&#39; contains invalid file names:
+##      ‘.test.R’
+##   ─  checking for LF line-endings in source and make files and shell scripts
+##   ─  checking for empty or unneeded directories
+##   ─  building ‘jeksterslabRpkg_0.9.0.tar.gz’
+##      
+## 
+
+## Installing package into &#39;/home/jek/R/x86_64-pc-linux-gnu/4.0&#39;
+## (as &#39;lib&#39; is unspecified)
 </code></pre>
 
 </body>

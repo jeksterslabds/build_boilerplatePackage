@@ -1,7 +1,7 @@
 01\_dependencies.R
 ================
 jek
-2020-05-07
+2020-05-08
 
 ``` r
 repos <- "https://cran.rstudio.org"
@@ -24,5 +24,20 @@ remotes::install_github(
 
     ## Using github PAT from envvar GITHUB_PAT
 
-    ## Skipping install of 'jeksterslabRpkg' from a github remote, the SHA1 (5c12db70) has not changed since last install.
-    ##   Use `force = TRUE` to force installation
+    ## Downloading GitHub repo jeksterslabds/jeksterslabRpkg@master
+
+    ## 
+    ##      checking for file ‘/tmp/RtmpLOnkcO/remotes6db4773c6265/jeksterslabds-jeksterslabRpkg-e726778/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpLOnkcO/remotes6db4773c6265/jeksterslabds-jeksterslabRpkg-e726778/DESCRIPTION’
+    ##   ─  preparing ‘jeksterslabRpkg’:
+    ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+    ##   ─  excluding invalid files
+    ##      Subdirectory 'R' contains invalid file names:
+    ##      ‘.test.R’
+    ##   ─  checking for LF line-endings in source and make files and shell scripts
+    ##   ─  checking for empty or unneeded directories
+    ##   ─  building ‘jeksterslabRpkg_0.9.0.tar.gz’
+    ##      
+    ## 
+
+    ## Installing package into '/home/jek/R/x86_64-pc-linux-gnu/4.0'
+    ## (as 'lib' is unspecified)
