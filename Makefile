@@ -14,7 +14,7 @@ all : rm
 	echo "See generated package in https://github.com/jeksterslabds/boilerplatePackage."
 	git init
 	git add -A
-	git commit -m "BUILD."
+	git commit -m "Automated build."
 	git push
 
 clean : rm
