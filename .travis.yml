@@ -8,7 +8,7 @@ os:
 - linux
 - osx
 install:
-- Rscript -e 'if (!require("rmarkdown")) install.packages("rmarkdown", repos = repos)'
+- Rscript -e 'if (!require("rmarkdown")) install.packages("rmarkdown", repos = "https://cran.rstudio.org")'
 script:
 - Rscript -e 'rmarkdown::render("01_dependencies.R")'
 - Rscript -e 'rmarkdown::render("02_create.R")'

@@ -6,7 +6,7 @@ YML=${PREFIX}/jeksterslabRpkg/inst/extdata/DESCRIPTION.yml
 all : rm
 	cp $(YML) $(shell pwd)
 	(cd boilerplatePackage && git pull)
-	Rscript -e 'if (!require("rmarkdown")) install.packages("rmarkdown", repos = repos)'
+	Rscript -e 'if (!require("rmarkdown")) install.packages("rmarkdown", repos = "https://cran.rstudio.org")'
 	Rscript -e 'rmarkdown::render("01_dependencies.R")'
 	Rscript -e 'rmarkdown::render("02_create.R")'
 	Rscript -e 'rmarkdown::render("03_build.R")'
