@@ -1,7 +1,7 @@
 03\_build.R
 ================
 jek
-2020-05-08
+2020-05-09
 
   - [Build Package.](#build-package.)
       - [minimal = TRUE](#minimal-true)
@@ -113,7 +113,11 @@ pkg_build(
     ## /usr/bin/pandoc +RTS -K512m -RTS README.utf8.md --to gfm --from markdown+autolink_bare_uris+tex_math_single_backslash --output README.md --standalone --template /home/jek/R/x86_64-pc-linux-gnu/4.0/rmarkdown/rmarkdown/templates/github_document/resources/default.md 
     ## /usr/bin/pandoc +RTS -K512m -RTS README.md --to html4 --from gfm --output README.html --standalone --self-contained --highlight-style pygments --template /home/jek/R/x86_64-pc-linux-gnu/4.0/rmarkdown/rmarkdown/templates/github_document/resources/preview.html --variable 'github-markdown-css:/home/jek/R/x86_64-pc-linux-gnu/4.0/rmarkdown/rmarkdown/templates/github_document/resources/github.css' --email-obfuscation none --metadata pagetitle=PREVIEW
 
-    ## Warning in value[[3L]](cond): Error rendering /media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/README.Rmd
+    ## 
+    ## Preview created: README.html
+
+    ## 
+    ## Output created: README.md
 
     ## 
     ## 
@@ -144,7 +148,7 @@ pkg_build(
     ## ────────────────────────────────────────────────────────────────────────────────
     ##      checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’ ...  ✔  checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’
     ##   ─  preparing ‘boilerplatePackage’:
-    ##    checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+    ##    checking      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  installing the package to build vignettes
     ##      creating vignettes ...  ✔  creating vignettes (1.2s)
     ##   ─  checking for LF line-endings in source and make files and shell scripts
@@ -159,7 +163,7 @@ pkg_build(
     ## ● _R_CHECK_FORCE_SUGGESTS_          : FALSE
     ## ● NOT_CRAN                          : true
     ## ── R CMD check ─────────────────────────────────────────────────────────────────
-    ## * using log directory ‘/tmp/RtmpXg4Fjk/boilerplatePackage.Rcheck’
+    ## * using log directory ‘/tmp/RtmpEtlc7L/boilerplatePackage.Rcheck’
     ## * using R version 4.0.0 (2020-04-24)
     ## * using platform: x86_64-pc-linux-gnu (64-bit)
     ## * using session charset: UTF-8
@@ -228,13 +232,13 @@ pkg_build(
     ## 
     ##      checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’ ...  ✔  checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’
     ##   ─  preparing ‘boilerplatePackage’:
-    ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+    ##    checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  checking for LF line-endings in source and make files and shell scripts
     ##   ─  checking for empty or unneeded directories
-    ## ─  building ‘boilerplatePackage_0.9.0.tar.gz’
+    ##   ─  building ‘boilerplatePackage_0.9.0.tar.gz’
     ##      
     ## Running /usr/lib64/R/bin/R CMD INSTALL \
-    ##   /tmp/RtmpXg4Fjk/boilerplatePackage_0.9.0.tar.gz --install-tests 
+    ##   /tmp/RtmpEtlc7L/boilerplatePackage_0.9.0.tar.gz --install-tests 
     ## * installing to library ‘/home/jek/R/x86_64-pc-linux-gnu/4.0’
     ## * installing *source* package ‘boilerplatePackage’ ...
     ## ** using staged installation
