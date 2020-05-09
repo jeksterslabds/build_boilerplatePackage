@@ -118,6 +118,7 @@ pkg_create(
     ## ── Building articles ───────────────────────────────────────────────────────────
     ## Reading 'vignettes/boilerplatePackage.Rmd'
     ## Reading 'vignettes/z.Rmd'
+    ## Writing 'articles/z.html'
     ## ── Building news ───────────────────────────────────────────────────────────────
     ## ══ DONE ════════════════════════════════════════════════════════════════════════
 
