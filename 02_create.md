@@ -1,7 +1,7 @@
 02\_create.R
 ================
 jek
-2020-05-12
+2020-05-21
 
   - [Create a Boilerplate `R`
     Package.](#create-a-boilerplate-r-package.)
@@ -78,8 +78,6 @@ pkg_create(
 
     ## ✔ Setting active project to '/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage'
 
-    ## ✔ Creating 'data/'
-
     ## ✔ Saving 'galton' to 'data/galton.rda'
 
     ## ● Document your data (see 'https://r-pkgs.org/data.html')
@@ -118,6 +116,8 @@ pkg_create(
     ## ── Building articles ───────────────────────────────────────────────────────────
     ## Reading 'vignettes/boilerplatePackage.Rmd'
     ## Writing 'articles/boilerplatePackage.html'
+    ## Reading 'vignettes/tests/test_z.Rmd'
+    ## Writing 'articles/tests/test_z.html'
     ## Reading 'vignettes/z.Rmd'
     ## Writing 'articles/z.html'
     ## ── Building news ───────────────────────────────────────────────────────────────

@@ -1,7 +1,7 @@
 01\_dependencies.R
 ================
 jek
-2020-05-12
+2020-05-21
 
 ``` r
 repos <- "https://cran.rstudio.org"
@@ -27,15 +27,15 @@ remotes::install_github(
     ## Downloading GitHub repo jeksterslabds/jeksterslabRpkg@master
 
     ## 
-    ##      checking for file ‘/tmp/RtmpLnI1WT/remotes16a2ba33356d/jeksterslabds-jeksterslabRpkg-9d5b471/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpLnI1WT/remotes16a2ba33356d/jeksterslabds-jeksterslabRpkg-9d5b471/DESCRIPTION’
+    ##          checking      checking for file      checking for file ‘/tmp/RtmphPkREg/remotes58ce27e712f8/jeksterslabds-jeksterslabRpkg-cbcd745/DESCRIPTION’     checking for file ‘/tmp/RtmphPkREg/remotes58ce27e712f8/jeksterslabds-jeksterslabRpkg-cbcd745/DESCRIPTION’ ...     checking for file ‘/tmp/RtmphPkREg/remotes58ce27e712f8/jeksterslabds-jeksterslabRpkg-cbcd745/DESCRIPTION’ ...      checking for file ‘/tmp/RtmphPkREg/remotes58ce27e712f8/jeksterslabds-jeksterslabRpkg-cbcd745/DESCRIPTION’ ... OK  ✔  checking for file ‘/tmp/RtmphPkREg/remotes58ce27e712f8/jeksterslabds-jeksterslabRpkg-cbcd745/DESCRIPTION’
     ##   ─  preparing ‘jeksterslabRpkg’:
-    ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
-    ##   ─  excluding invalid files
+    ##      checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...   ✔  checking DESCRIPTION meta-information
+    ##               excluding invalid files  ─  excluding invalid files
     ##      Subdirectory 'R' contains invalid file names:
     ##      ‘.test.R’
-    ##   ─  checking for LF line-endings in source and make files and shell scripts
-    ##   ─  checking for empty or unneeded directories
-    ##   ─  building ‘jeksterslabRpkg_0.9.0.tar.gz’
+    ##               checking for LF line-endings in source and make files and shell scripts  ─  checking for LF line-endings in source and make files and shell scripts
+    ##               checking for empty or unneeded directories  ─  checking for empty or unneeded directories
+    ##               building      building ‘jeksterslabRpkg_0.9.0.tar.gz’  ─  building ‘jeksterslabRpkg_0.9.0.tar.gz’
     ##      
     ## 
 
