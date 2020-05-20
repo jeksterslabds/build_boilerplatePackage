@@ -78,8 +78,6 @@ pkg_create(
 
     ## ✔ Setting active project to '/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage'
 
-    ## ✔ Creating 'data/'
-
     ## ✔ Saving 'galton' to 'data/galton.rda'
 
     ## ● Document your data (see 'https://r-pkgs.org/data.html')
@@ -110,26 +108,17 @@ pkg_create(
     ## Writing to:   '/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/docs'
     ## ── Initialising site ───────────────────────────────────────────────────────────
     ## Writing 'sitemap.xml'
-    ## Writing '404.html'
     ## ── Building home ───────────────────────────────────────────────────────────────
-    ## Writing 'authors.html'
     ## Reading 'LICENSE.md'
-    ## Writing 'LICENSE.html'
-    ## Writing 'LICENSE-text.html'
     ## ── Building function reference ─────────────────────────────────────────────────
-    ## Writing 'reference/index.html'
     ## Reading 'man/galton.Rd'
-    ## Writing 'reference/galton.html'
     ## Reading 'man/z.Rd'
-    ## Writing 'reference/z.html'
     ## ── Building articles ───────────────────────────────────────────────────────────
-    ## Writing 'articles/index.html'
     ## Reading 'vignettes/boilerplatePackage.Rmd'
-    ## Writing 'articles/boilerplatePackage.html'
+    ## Reading 'vignettes/tests/test_z.Rmd'
+    ## Writing 'articles/tests/test_z.html'
     ## Reading 'vignettes/z.Rmd'
-    ## Writing 'articles/z.html'
     ## ── Building news ───────────────────────────────────────────────────────────────
-    ## Writing 'news/index.html'
     ## ══ DONE ════════════════════════════════════════════════════════════════════════
 
     ## .Rbuildignore file path: /media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/.Rbuildignore
