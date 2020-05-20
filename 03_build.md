@@ -146,11 +146,11 @@ pkg_build(
     ## ● CXXFLAGS  : -Wall -pedantic
     ## ● CXX11FLAGS: -Wall -pedantic
     ## ────────────────────────────────────────────────────────────────────────────────
-    ##          checking      checking for file      checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’     checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’ ...     checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’ ...      checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’ ... OK  ✔  checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’
+    ##          checking      checking for file      checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’     checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’ ...  ✔  checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’
     ##   ─  preparing ‘boilerplatePackage’:
-    ##      checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...      checking DESCRIPTION meta-information ... OK  ✔  checking DESCRIPTION meta-information
+    ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##               installing the package to build vignettes  ─  installing the package to build vignettes
-    ##      creating vignettes ...     creating vignettes ...   ✔  creating vignettes (1.8s)
+    ##      creating vignettes ...     creating vignettes ...   ✔  creating vignettes (1.7s)
     ##               checking for LF line-endings in source and make files and shell scripts  ─  checking for LF line-endings in source and make files and shell scripts
     ##               checking for empty or unneeded directories  ─  checking for empty or unneeded directories
     ##               building   ─  building ‘boilerplatePackage_0.9.0.tar.gz’
@@ -163,7 +163,7 @@ pkg_build(
     ## ● _R_CHECK_FORCE_SUGGESTS_          : FALSE
     ## ● NOT_CRAN                          : true
     ## ── R CMD check ─────────────────────────────────────────────────────────────────
-    ## * using log directory ‘/tmp/RtmpBWZOBI/boilerplatePackage.Rcheck’
+    ## * using log directory ‘/tmp/RtmpNUVSHI/boilerplatePackage.Rcheck’
     ## * using R version 4.0.0 (2020-04-24)
     ## * using platform: x86_64-pc-linux-gnu (64-bit)
     ## * using session charset: UTF-8
@@ -233,12 +233,12 @@ pkg_build(
     ##          checking      checking for file      checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’     checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’ ...     checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’ ...      checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’ ... OK  ✔  checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’
     ##   ─  preparing ‘boilerplatePackage’:
     ##      checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...      checking DESCRIPTION meta-information ... OK  ✔  checking DESCRIPTION meta-information
-    ##               checking for LF line-endings in source and make files and shell scripts  ─  checking for LF line-endings in source and make files and shell scripts
-    ##               checking for empty or unneeded directories  ─  checking for empty or unneeded directories
-    ##            ─  building ‘boilerplatePackage_0.9.0.tar.gz’
+    ##   ─  checking for LF line-endings in source and make files and shell scripts
+    ##   ─  checking for empty or unneeded directories
+    ##   ─  building ‘boilerplatePackage_0.9.0.tar.gz’
     ##      
     ## Running /usr/lib64/R/bin/R CMD INSTALL \
-    ##   /tmp/RtmpBWZOBI/boilerplatePackage_0.9.0.tar.gz --install-tests 
+    ##   /tmp/RtmpNUVSHI/boilerplatePackage_0.9.0.tar.gz --install-tests 
     ## * installing to library ‘/home/jek/R/x86_64-pc-linux-gnu/4.0’
     ## * installing *source* package ‘boilerplatePackage’ ...
     ## ** using staged installation
@@ -261,17 +261,28 @@ pkg_build(
     ## Writing to:   '/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/docs'
     ## ── Initialising site ───────────────────────────────────────────────────────────
     ## Writing 'sitemap.xml'
+    ## Writing '404.html'
     ## ── Building home ───────────────────────────────────────────────────────────────
+    ## Writing 'authors.html'
     ## Reading 'LICENSE.md'
+    ## Writing 'LICENSE.html'
+    ## Writing 'LICENSE-text.html'
     ## ── Building function reference ─────────────────────────────────────────────────
+    ## Writing 'reference/index.html'
     ## Reading 'man/galton.Rd'
+    ## Writing 'reference/galton.html'
     ## Reading 'man/z.Rd'
+    ## Writing 'reference/z.html'
     ## ── Building articles ───────────────────────────────────────────────────────────
+    ## Writing 'articles/index.html'
     ## Reading 'vignettes/boilerplatePackage.Rmd'
+    ## Writing 'articles/boilerplatePackage.html'
     ## Reading 'vignettes/tests/test_z.Rmd'
     ## Writing 'articles/tests/test_z.html'
     ## Reading 'vignettes/z.Rmd'
+    ## Writing 'articles/z.html'
     ## ── Building news ───────────────────────────────────────────────────────────────
+    ## Writing 'news/index.html'
     ## ══ DONE ════════════════════════════════════════════════════════════════════════
 
     ## Build process for boilerplatePackage complete.
