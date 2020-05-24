@@ -1,7 +1,7 @@
 01\_dependencies.R
 ================
 jek
-2020-05-21
+2020-05-24
 
 ``` r
 repos <- "https://cran.rstudio.org"
@@ -27,10 +27,10 @@ remotes::install_github(
     ## Downloading GitHub repo jeksterslabds/jeksterslabRpkg@master
 
     ## 
-    ##      checking for file ‘/tmp/Rtmp2PAlHZ/remotesfa7c21247254/jeksterslabds-jeksterslabRpkg-7cd5e23/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/Rtmp2PAlHZ/remotesfa7c21247254/jeksterslabds-jeksterslabRpkg-7cd5e23/DESCRIPTION’
+    ##      checking for file ‘/tmp/RtmprVJdkc/remotesbf36e53b237d4/jeksterslabds-jeksterslabRpkg-d7db662/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmprVJdkc/remotesbf36e53b237d4/jeksterslabds-jeksterslabRpkg-d7db662/DESCRIPTION’
     ##   ─  preparing ‘jeksterslabRpkg’:
-    ##      checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...      checking DESCRIPTION meta-information ... OK  ✔  checking DESCRIPTION meta-information
-    ##               excluding invalid files  ─  excluding invalid files
+    ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+    ##   ─  excluding invalid files
     ##      Subdirectory 'R' contains invalid file names:
     ##      ‘.test.R’
     ##   ─  checking for LF line-endings in source and make files and shell scripts

@@ -1,7 +1,7 @@
 02\_create.R
 ================
 jek
-2020-05-21
+2020-05-24
 
   - [Create a Boilerplate `R`
     Package.](#create-a-boilerplate-r-package.)
@@ -78,6 +78,8 @@ pkg_create(
 
     ## ✔ Setting active project to '/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage'
 
+    ## ✔ Creating 'data/'
+
     ## ✔ Saving 'galton' to 'data/galton.rda'
 
     ## ● Document your data (see 'https://r-pkgs.org/data.html')
@@ -107,18 +109,34 @@ pkg_create(
     ## Reading from: '/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage'
     ## Writing to:   '/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/docs'
     ## ── Initialising site ───────────────────────────────────────────────────────────
+    ## Copying '../../../../../../home/jek/R/x86_64-pc-linux-gnu/4.0/pkgdown/assets/bootstrap-toc.css' to 'bootstrap-toc.css'
+    ## Copying '../../../../../../home/jek/R/x86_64-pc-linux-gnu/4.0/pkgdown/assets/bootstrap-toc.js' to 'bootstrap-toc.js'
+    ## Copying '../../../../../../home/jek/R/x86_64-pc-linux-gnu/4.0/pkgdown/assets/docsearch.css' to 'docsearch.css'
+    ## Copying '../../../../../../home/jek/R/x86_64-pc-linux-gnu/4.0/pkgdown/assets/docsearch.js' to 'docsearch.js'
+    ## Copying '../../../../../../home/jek/R/x86_64-pc-linux-gnu/4.0/pkgdown/assets/link.svg' to 'link.svg'
+    ## Copying '../../../../../../home/jek/R/x86_64-pc-linux-gnu/4.0/pkgdown/assets/pkgdown.css' to 'pkgdown.css'
+    ## Copying '../../../../../../home/jek/R/x86_64-pc-linux-gnu/4.0/pkgdown/assets/pkgdown.js' to 'pkgdown.js'
     ## Writing 'sitemap.xml'
+    ## Writing '404.html'
     ## ── Building home ───────────────────────────────────────────────────────────────
+    ## Writing 'authors.html'
     ## Reading 'LICENSE.md'
+    ## Writing 'LICENSE.html'
+    ## Writing 'LICENSE-text.html'
     ## ── Building function reference ─────────────────────────────────────────────────
+    ## Writing 'reference/index.html'
     ## Reading 'man/galton.Rd'
+    ## Writing 'reference/galton.html'
     ## Reading 'man/z.Rd'
+    ## Writing 'reference/z.html'
     ## ── Building articles ───────────────────────────────────────────────────────────
+    ## Writing 'articles/index.html'
     ## Reading 'vignettes/boilerplatePackage.Rmd'
-    ## Reading 'vignettes/tests/test_z.Rmd'
-    ## Writing 'articles/tests/test_z.html'
+    ## Writing 'articles/boilerplatePackage.html'
     ## Reading 'vignettes/z.Rmd'
+    ## Writing 'articles/z.html'
     ## ── Building news ───────────────────────────────────────────────────────────────
+    ## Writing 'news/index.html'
     ## ══ DONE ════════════════════════════════════════════════════════════════════════
 
     ## .Rbuildignore file path: /media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/.Rbuildignore

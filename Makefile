@@ -3,9 +3,9 @@ YML=${PREFIX}/jeksterslabRpkg/inst/extdata/DESCRIPTION.yml
 
 .PHONY: all clean rm
 
-all : rm
+all : clean
 	cp $(YML) $(shell pwd)
-	(cd boilerplatePackage && git pull)
+	-(cd boilerplatePackage && git pull)
 	Rscript -e 'if (!require("rmarkdown")) install.packages("rmarkdown", repos = "https://cran.rstudio.org")'
 	Rscript -e 'rmarkdown::render("01_dependencies.R")'
 	Rscript -e 'rmarkdown::render("02_create.R")'
@@ -17,7 +17,11 @@ all : rm
 	git push
 
 clean : rm
-	-(cd boilerplatePackage && git checkout master && git rm -rf \* && git commit -m "Automated clean." && git push origin master)
+	-(cd boilerplatePackage && rm -rf *)
+	-(cd boilerplatePackage && git checkout master)
+	-(cd boilerplatePackage && git add --all)
+	-(cd boilerplatePackage && git commit -m "[skip ci] Automated clean.")
+	-(cd boilerplatePackage && git push origin master)
 	
 rm :
 	-rm -rf DESCRIPTION.yml
