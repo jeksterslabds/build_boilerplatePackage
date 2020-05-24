@@ -163,7 +163,7 @@ pkg_build(
     ## ● _R_CHECK_FORCE_SUGGESTS_          : FALSE
     ## ● NOT_CRAN                          : true
     ## ── R CMD check ─────────────────────────────────────────────────────────────────
-    ## * using log directory ‘/tmp/RtmpbDzRnD/boilerplatePackage.Rcheck’
+    ## * using log directory ‘/tmp/RtmpP2dr1y/boilerplatePackage.Rcheck’
     ## * using R version 4.0.0 (2020-04-24)
     ## * using platform: x86_64-pc-linux-gnu (64-bit)
     ## * using session charset: UTF-8
@@ -238,7 +238,7 @@ pkg_build(
     ## ─  building ‘boilerplatePackage_0.9.0.tar.gz’
     ##      
     ## Running /usr/lib64/R/bin/R CMD INSTALL \
-    ##   /tmp/RtmpbDzRnD/boilerplatePackage_0.9.0.tar.gz --install-tests 
+    ##   /tmp/RtmpP2dr1y/boilerplatePackage_0.9.0.tar.gz --install-tests 
     ## * installing to library ‘/home/jek/R/x86_64-pc-linux-gnu/4.0’
     ## * installing *source* package ‘boilerplatePackage’ ...
     ## ** using staged installation
