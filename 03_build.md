@@ -1,7 +1,7 @@
 boilerplatePackage
 ================
 Ivan Jacob Agaloos Pesigan
-2020-05-31
+2020-06-01
 
   - [Build Package.](#build-package.)
       - [minimal = TRUE](#minimal-true)
@@ -148,12 +148,12 @@ pkg_build(
     ## ────────────────────────────────────────────────────────────────────────────────
     ##      checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’ ...  ✔  checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’
     ##   ─  preparing ‘boilerplatePackage’:
-    ##    checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+    ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  installing the package to build vignettes
-    ##      creating vignettes ...  ✔  creating vignettes (1.3s)
+    ##      creating vignettes ...  ✔  creating vignettes (1.1s)
     ##   ─  checking for LF line-endings in source and make files and shell scripts
     ##   ─  checking for empty or unneeded directories
-    ## ─  building ‘boilerplatePackage_0.9.0.tar.gz’
+    ##   ─  building ‘boilerplatePackage_0.9.0.tar.gz’
     ##      
     ## ── Checking ────────────────────────────────────────────── boilerplatePackage ──
     ## Setting env vars:
@@ -163,7 +163,7 @@ pkg_build(
     ## ● _R_CHECK_FORCE_SUGGESTS_          : FALSE
     ## ● NOT_CRAN                          : true
     ## ── R CMD check ─────────────────────────────────────────────────────────────────
-    ## * using log directory ‘/tmp/Rtmp0kbGqb/boilerplatePackage.Rcheck’
+    ## * using log directory ‘/tmp/Rtmp4QV7HW/boilerplatePackage.Rcheck’
     ## * using R version 4.0.0 (2020-04-24)
     ## * using platform: x86_64-pc-linux-gnu (64-bit)
     ## * using session charset: UTF-8
@@ -238,7 +238,7 @@ pkg_build(
     ##   ─  building ‘boilerplatePackage_0.9.0.tar.gz’
     ##      
     ## Running /usr/lib64/R/bin/R CMD INSTALL \
-    ##   /tmp/Rtmp0kbGqb/boilerplatePackage_0.9.0.tar.gz --install-tests 
+    ##   /tmp/Rtmp4QV7HW/boilerplatePackage_0.9.0.tar.gz --install-tests 
     ## * installing to library ‘/home/jek/R/x86_64-pc-linux-gnu/4.0’
     ## * installing *source* package ‘boilerplatePackage’ ...
     ## ** using staged installation

@@ -1,7 +1,7 @@
 Install Dependencies before Creating boilerplatePackage
 ================
 Ivan Jacob Agaloos Pesigan
-2020-05-31
+2020-06-01
 
 ``` r
 repos <- "https://cran.rstudio.org"
@@ -27,9 +27,9 @@ remotes::install_github(
     ## Downloading GitHub repo jeksterslabds/jeksterslabRpkg@master
 
     ## 
-    ##      checking for file ‘/tmp/RtmpjulByy/remotes13ae94162b0d2b/jeksterslabds-jeksterslabRpkg-0afcb4a/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpjulByy/remotes13ae94162b0d2b/jeksterslabds-jeksterslabRpkg-0afcb4a/DESCRIPTION’
+    ##      checking for file ‘/tmp/RtmpHhG6K4/remotes16559e65ee1f09/jeksterslabds-jeksterslabRpkg-4397f1a/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpHhG6K4/remotes16559e65ee1f09/jeksterslabds-jeksterslabRpkg-4397f1a/DESCRIPTION’
     ##   ─  preparing ‘jeksterslabRpkg’:
-    ##    checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+    ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  checking for LF line-endings in source and make files and shell scripts
     ##   ─  checking for empty or unneeded directories
     ##   ─  building ‘jeksterslabRpkg_0.9.0.tar.gz’
