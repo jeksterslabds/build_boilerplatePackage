@@ -600,12 +600,12 @@ body {
 
 <body>
 
-<h1 id="02_creater">02_create.R</h1>
-<p>jek 2020-05-26</p>
+<h1 id="create-boilerplatepackage">Create boilerplatePackage</h1>
+<p>Ivan Jacob Agaloos Pesigan 2020-05-31</p>
 <ul>
 <li><a href="#create-a-boilerplate-r-package.">Create a Boilerplate <code>R</code> Package.</a></li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">library</span>(jeksterslabRpkg)</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="kw">library</span>(jeksterslabRpkg)</span></code></pre></div>
 <h2 id="create-a-boilerplate-r-package">Create a Boilerplate <code>R</code> Package.</h2>
 <p>Creates a boilerplate <code>R</code> package by generating the following:</p>
 <ul>
@@ -620,23 +620,23 @@ body {
 </ul>
 <p>Optionally, the function can also set up a <code>Git</code> repository and push the created repo to <code>Github</code>. This requires that <code>git</code> and <code>hub</code> are installed and configured in the system.</p>
 <p>If you are going to document, check, and build your package using <code>devtools</code>, you may delete the boilerplate <code>NAMESPACE</code> and <code>MAN</code> files.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">pkg_create</span>(</span>
-<span id="cb2-2"><a href="#cb2-2"></a>  <span class="dt">pkg_dir =</span> <span class="kw">getwd</span>(),</span>
-<span id="cb2-3"><a href="#cb2-3"></a>  <span class="dt">input_file =</span> <span class="st">&quot;DESCRIPTION.yml&quot;</span>,</span>
-<span id="cb2-4"><a href="#cb2-4"></a>  <span class="dt">docs =</span> <span class="ot">TRUE</span>,</span>
-<span id="cb2-5"><a href="#cb2-5"></a>  <span class="dt">pkgdown =</span> <span class="ot">TRUE</span>,</span>
-<span id="cb2-6"><a href="#cb2-6"></a>  <span class="dt">travis =</span> <span class="ot">TRUE</span>,</span>
-<span id="cb2-7"><a href="#cb2-7"></a>  <span class="dt">appveyor =</span> <span class="ot">TRUE</span>,</span>
-<span id="cb2-8"><a href="#cb2-8"></a>  <span class="dt">readme =</span> <span class="ot">TRUE</span>,</span>
-<span id="cb2-9"><a href="#cb2-9"></a>  <span class="dt">add_description =</span> <span class="ot">NULL</span>,</span>
-<span id="cb2-10"><a href="#cb2-10"></a>  <span class="dt">add_namespace =</span> <span class="ot">NULL</span>,</span>
-<span id="cb2-11"><a href="#cb2-11"></a>  <span class="dt">add_rbuildignore =</span> <span class="ot">NULL</span>,</span>
-<span id="cb2-12"><a href="#cb2-12"></a>  <span class="dt">add_gitignore =</span> <span class="ot">NULL</span>,</span>
-<span id="cb2-13"><a href="#cb2-13"></a>  <span class="dt">add_travis =</span> <span class="ot">NULL</span>,</span>
-<span id="cb2-14"><a href="#cb2-14"></a>  <span class="dt">add_appveyor =</span> <span class="ot">NULL</span>,</span>
-<span id="cb2-15"><a href="#cb2-15"></a>  <span class="dt">git =</span> <span class="ot">TRUE</span>,</span>
-<span id="cb2-16"><a href="#cb2-16"></a>  <span class="dt">github =</span> <span class="ot">TRUE</span></span>
-<span id="cb2-17"><a href="#cb2-17"></a>)</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="kw">pkg_create</span>(</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a>  <span class="dt">pkg_dir =</span> <span class="kw">getwd</span>(),</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a>  <span class="dt">input_file =</span> <span class="st">&quot;DESCRIPTION.yml&quot;</span>,</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true"></a>  <span class="dt">docs =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true"></a>  <span class="dt">pkgdown =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true"></a>  <span class="dt">travis =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true"></a>  <span class="dt">appveyor =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true"></a>  <span class="dt">readme =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true"></a>  <span class="dt">add_description =</span> <span class="ot">NULL</span>,</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true"></a>  <span class="dt">add_namespace =</span> <span class="ot">NULL</span>,</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true"></a>  <span class="dt">add_rbuildignore =</span> <span class="ot">NULL</span>,</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true"></a>  <span class="dt">add_gitignore =</span> <span class="ot">NULL</span>,</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true"></a>  <span class="dt">add_travis =</span> <span class="ot">NULL</span>,</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true"></a>  <span class="dt">add_appveyor =</span> <span class="ot">NULL</span>,</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true"></a>  <span class="dt">git =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true"></a>  <span class="dt">github =</span> <span class="ot">TRUE</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true"></a>)</span></code></pre></div>
 <pre><code>## Creating /media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage
 
 ## .Rbuildignore file path: /media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/.Rbuildignore

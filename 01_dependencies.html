@@ -600,29 +600,29 @@ body {
 
 <body>
 
-<h1 id="01_dependenciesr">01_dependencies.R</h1>
-<p>jek 2020-05-26</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>repos &lt;-<span class="st"> &quot;https://cran.rstudio.org&quot;</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="cf">if</span> (<span class="op">!</span><span class="kw">require</span>(<span class="st">&quot;remotes&quot;</span>)) {</span>
-<span id="cb1-3"><a href="#cb1-3"></a>  <span class="kw">install.packages</span>(</span>
-<span id="cb1-4"><a href="#cb1-4"></a>    <span class="st">&quot;remotes&quot;</span>,</span>
-<span id="cb1-5"><a href="#cb1-5"></a>    <span class="dt">repos =</span> repos</span>
-<span id="cb1-6"><a href="#cb1-6"></a>  )</span>
-<span id="cb1-7"><a href="#cb1-7"></a>}</span></code></pre></div>
+<h1 id="install-dependencies-before-creating-boilerplatepackage">Install Dependencies before Creating boilerplatePackage</h1>
+<p>Ivan Jacob Agaloos Pesigan 2020-05-31</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a>repos &lt;-<span class="st"> &quot;https://cran.rstudio.org&quot;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a><span class="cf">if</span> (<span class="op">!</span><span class="kw">require</span>(<span class="st">&quot;remotes&quot;</span>)) {</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a>  <span class="kw">install.packages</span>(</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a>    <span class="st">&quot;remotes&quot;</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a>    <span class="dt">repos =</span> repos</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a>  )</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a>}</span></code></pre></div>
 <pre><code>## Loading required package: remotes
 </code></pre>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a>remotes<span class="op">::</span><span class="kw">install_github</span>(</span>
-<span id="cb3-2"><a href="#cb3-2"></a>  <span class="dt">repo =</span> <span class="st">&quot;jeksterslabds/jeksterslabRpkg&quot;</span>,</span>
-<span id="cb3-3"><a href="#cb3-3"></a>  <span class="dt">ref =</span> <span class="st">&quot;master&quot;</span></span>
-<span id="cb3-4"><a href="#cb3-4"></a>)</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a>remotes<span class="op">::</span><span class="kw">install_github</span>(</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true"></a>  <span class="dt">repo =</span> <span class="st">&quot;jeksterslabds/jeksterslabRpkg&quot;</span>,</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true"></a>  <span class="dt">ref =</span> <span class="st">&quot;master&quot;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true"></a>)</span></code></pre></div>
 <pre><code>## Using github PAT from envvar GITHUB_PAT
 
 ## Downloading GitHub repo jeksterslabds/jeksterslabRpkg@master
 
 ## 
-##      checking for file ‘/tmp/RtmpUp7pKr/remotes12c57c3dcd1f86/jeksterslabds-jeksterslabRpkg-608d8ba/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpUp7pKr/remotes12c57c3dcd1f86/jeksterslabds-jeksterslabRpkg-608d8ba/DESCRIPTION’
+##      checking for file ‘/tmp/RtmpjulByy/remotes13ae94162b0d2b/jeksterslabds-jeksterslabRpkg-0afcb4a/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpjulByy/remotes13ae94162b0d2b/jeksterslabds-jeksterslabRpkg-0afcb4a/DESCRIPTION’
 ##   ─  preparing ‘jeksterslabRpkg’:
-##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+##    checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
 ##   ─  checking for LF line-endings in source and make files and shell scripts
 ##   ─  checking for empty or unneeded directories
 ##   ─  building ‘jeksterslabRpkg_0.9.0.tar.gz’
