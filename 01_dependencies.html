@@ -602,13 +602,27 @@ body {
 
 <h1 id="install-dependencies-before-creating-boilerplatepackage">Install Dependencies before Creating boilerplatePackage</h1>
 <p>Ivan Jacob Agaloos Pesigan 2020-06-01</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a>repos &lt;-<span class="st"> &quot;https://cran.rstudio.org&quot;</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a><span class="cf">if</span> (<span class="op">!</span><span class="kw">require</span>(<span class="st">&quot;remotes&quot;</span>)) {</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a>  <span class="kw">install.packages</span>(</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a>    <span class="st">&quot;remotes&quot;</span>,</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a>    <span class="dt">repos =</span> repos</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a>  )</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a>dir &lt;-<span class="st"> </span><span class="kw">Sys.getenv</span>(<span class="st">&quot;HOME&quot;</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a><span class="cf">if</span> (dir <span class="op">==</span><span class="st"> &quot;/home/travis&quot;</span> <span class="op">|</span><span class="st"> </span>dir <span class="op">==</span><span class="st"> &quot;/Users/travis&quot;</span>) {</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a>  <span class="kw">source</span>(<span class="st">&quot;https://raw.githubusercontent.com/jeksterslabds/jeksterslabRutils/master/R/util_txt2file.R&quot;</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a>  <span class="kw">source</span>(<span class="st">&quot;https://raw.githubusercontent.com/jeksterslabds/jeksterslabRutils/master/R/util_os.R&quot;</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a>  <span class="kw">source</span>(<span class="st">&quot;https://raw.githubusercontent.com/jeksterslabds/jeksterslabRterm/master/R/term_user_lib.R&quot;</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a>  <span class="kw">source</span>(<span class="st">&quot;https://raw.githubusercontent.com/jeksterslabds/jeksterslabRterm/master/R/term_renviron.R&quot;</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a>  GITHUB_PAT &lt;-<span class="st"> </span><span class="kw">Sys.getenv</span>(<span class="st">&quot;GITHUB_PAT&quot;</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true"></a>  <span class="kw">term_renviron</span>(</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true"></a>    <span class="dt">dir =</span> dir,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true"></a>    <span class="dt">overwrite =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true"></a>    <span class="dt">GITHUB_PAT =</span> GITHUB_PAT,</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true"></a>    <span class="dt">libpath =</span> <span class="st">&quot;~/R/Library&quot;</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true"></a>  )</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true"></a>}</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true"></a>repos &lt;-<span class="st"> &quot;https://cran.rstudio.org&quot;</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true"></a><span class="cf">if</span> (<span class="op">!</span><span class="kw">require</span>(<span class="st">&quot;remotes&quot;</span>)) {</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true"></a>  <span class="kw">install.packages</span>(</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true"></a>    <span class="st">&quot;remotes&quot;</span>,</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true"></a>    <span class="dt">repos =</span> repos</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true"></a>  )</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true"></a>}</span></code></pre></div>
 <pre><code>## Loading required package: remotes
 </code></pre>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a>remotes<span class="op">::</span><span class="kw">install_github</span>(</span>
@@ -617,8 +631,20 @@ body {
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true"></a>)</span></code></pre></div>
 <pre><code>## Using github PAT from envvar GITHUB_PAT
 
-## Skipping install of &#39;jeksterslabRpkg&#39; from a github remote, the SHA1 (afed5d70) has not changed since last install.
-##   Use `force = TRUE` to force installation
+## Downloading GitHub repo jeksterslabds/jeksterslabRpkg@master
+
+## 
+##      checking for file ‘/tmp/Rtmper3xrg/remotes1d2bcd17422951/jeksterslabds-jeksterslabRpkg-03b8bea/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/Rtmper3xrg/remotes1d2bcd17422951/jeksterslabds-jeksterslabRpkg-03b8bea/DESCRIPTION’
+##   ─  preparing ‘jeksterslabRpkg’:
+##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+##   ─  checking for LF line-endings in source and make files and shell scripts
+##   ─  checking for empty or unneeded directories
+##   ─  building ‘jeksterslabRpkg_0.9.0.tar.gz’
+##      
+## 
+
+## Installing package into &#39;/home/jek/R/x86_64-pc-linux-gnu/4.0&#39;
+## (as &#39;lib&#39; is unspecified)
 </code></pre>
 
 </body>
