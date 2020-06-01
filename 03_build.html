@@ -627,27 +627,29 @@ body {
 <h3 id="minimal--true">minimal = TRUE</h3>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="kw">pkg_build</span>(</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a>  <span class="dt">pkg_root =</span> pkg_root,</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a>  <span class="dt">minimal =</span> <span class="ot">TRUE</span>,</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true"></a>  <span class="dt">par =</span> <span class="ot">TRUE</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true"></a>)</span></code></pre></div>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a>  <span class="dt">clean =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true"></a>  <span class="dt">minimal =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true"></a>  <span class="dt">par =</span> <span class="ot">TRUE</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true"></a>)</span></code></pre></div>
 <pre><code>## Building boilerplatePackage
 ## Path: /media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage
 </code></pre>
 <h3 id="minimal--false">minimal = FALSE</h3>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true"></a><span class="kw">pkg_build</span>(</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true"></a>  <span class="dt">pkg_root =</span> pkg_root,</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true"></a>  <span class="dt">minimal =</span> <span class="ot">FALSE</span>,</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true"></a>  <span class="dt">style =</span> <span class="ot">TRUE</span>,</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true"></a>  <span class="dt">data =</span> <span class="ot">TRUE</span>,</span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true"></a>  <span class="dt">render =</span> <span class="ot">TRUE</span>,</span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true"></a>  <span class="dt">readme =</span> <span class="ot">TRUE</span>,</span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true"></a>  <span class="dt">vignettes =</span> <span class="ot">TRUE</span>,</span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true"></a>  <span class="dt">tests =</span> <span class="ot">TRUE</span>,</span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true"></a>  <span class="dt">pkgdown =</span> <span class="ot">TRUE</span>,</span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true"></a>  <span class="dt">par =</span> <span class="ot">TRUE</span>,</span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true"></a>  <span class="dt">git =</span> <span class="ot">TRUE</span>,</span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true"></a>  <span class="dt">github =</span> <span class="ot">TRUE</span></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true"></a>)</span></code></pre></div>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true"></a>  <span class="dt">clean =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true"></a>  <span class="dt">minimal =</span> <span class="ot">FALSE</span>,</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true"></a>  <span class="dt">style =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true"></a>  <span class="dt">data =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true"></a>  <span class="dt">render =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true"></a>  <span class="dt">readme =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true"></a>  <span class="dt">vignettes =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true"></a>  <span class="dt">tests =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true"></a>  <span class="dt">pkgdown =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true"></a>  <span class="dt">par =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true"></a>  <span class="dt">git =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true"></a>  <span class="dt">github =</span> <span class="ot">TRUE</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true"></a>)</span></code></pre></div>
 <pre><code>## Building boilerplatePackage
 ## Path: /media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage
 
@@ -726,12 +728,12 @@ body {
 ## ────────────────────────────────────────────────────────────────────────────────
 ##      checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’ ...  ✔  checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’
 ##   ─  preparing ‘boilerplatePackage’:
-##    checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
 ##   ─  installing the package to build vignettes
-##      creating vignettes ...  ✔  creating vignettes (1.1s)
+##      creating vignettes ...  ✔  creating vignettes (1.2s)
 ##   ─  checking for LF line-endings in source and make files and shell scripts
 ##   ─  checking for empty or unneeded directories
-##   ─  building ‘boilerplatePackage_0.9.0.tar.gz’
+## ─  building ‘boilerplatePackage_0.9.0.tar.gz’
 ##      
 ## ── Checking ────────────────────────────────────────────── boilerplatePackage ──
 ## Setting env vars:
@@ -741,7 +743,7 @@ body {
 ## ● _R_CHECK_FORCE_SUGGESTS_          : FALSE
 ## ● NOT_CRAN                          : true
 ## ── R CMD check ─────────────────────────────────────────────────────────────────
-## * using log directory ‘/tmp/RtmpmylLTH/boilerplatePackage.Rcheck’
+## * using log directory ‘/tmp/Rtmp4x0M7A/boilerplatePackage.Rcheck’
 ## * using R version 4.0.0 (2020-04-24)
 ## * using platform: x86_64-pc-linux-gnu (64-bit)
 ## * using session charset: UTF-8
@@ -810,13 +812,13 @@ body {
 ## 
 ##      checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’ ...  ✔  checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’
 ##   ─  preparing ‘boilerplatePackage’:
-##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+##    checking      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
 ##   ─  checking for LF line-endings in source and make files and shell scripts
 ##   ─  checking for empty or unneeded directories
 ##   ─  building ‘boilerplatePackage_0.9.0.tar.gz’
 ##      
 ## Running /usr/lib64/R/bin/R CMD INSTALL \
-##   /tmp/RtmpmylLTH/boilerplatePackage_0.9.0.tar.gz --install-tests 
+##   /tmp/Rtmp4x0M7A/boilerplatePackage_0.9.0.tar.gz --install-tests 
 ## * installing to library ‘/home/jek/R/x86_64-pc-linux-gnu/4.0’
 ## * installing *source* package ‘boilerplatePackage’ ...
 ## ** using staged installation

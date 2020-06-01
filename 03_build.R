@@ -30,6 +30,7 @@ pkg_root <- file.path(
 #+ build_01
 pkg_build(
   pkg_root = pkg_root,
+  clean = TRUE,
   minimal = TRUE,
   par = TRUE
 )
@@ -39,6 +40,7 @@ pkg_build(
 #+ build_02
 pkg_build(
   pkg_root = pkg_root,
+  clean = TRUE,
   minimal = FALSE,
   style = TRUE,
   data = TRUE,

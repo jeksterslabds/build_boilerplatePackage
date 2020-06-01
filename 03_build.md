@@ -32,6 +32,7 @@ Builds the `R` package on `pkg_root` by:
 ``` r
 pkg_build(
   pkg_root = pkg_root,
+  clean = TRUE,
   minimal = TRUE,
   par = TRUE
 )
@@ -45,6 +46,7 @@ pkg_build(
 ``` r
 pkg_build(
   pkg_root = pkg_root,
+  clean = TRUE,
   minimal = FALSE,
   style = TRUE,
   data = TRUE,
@@ -137,12 +139,12 @@ pkg_build(
     ## ────────────────────────────────────────────────────────────────────────────────
     ##      checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’ ...  ✔  checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’
     ##   ─  preparing ‘boilerplatePackage’:
-    ##    checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+    ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  installing the package to build vignettes
-    ##      creating vignettes ...  ✔  creating vignettes (1.1s)
+    ##      creating vignettes ...  ✔  creating vignettes (1.2s)
     ##   ─  checking for LF line-endings in source and make files and shell scripts
     ##   ─  checking for empty or unneeded directories
-    ##   ─  building ‘boilerplatePackage_0.9.0.tar.gz’
+    ## ─  building ‘boilerplatePackage_0.9.0.tar.gz’
     ##      
     ## ── Checking ────────────────────────────────────────────── boilerplatePackage ──
     ## Setting env vars:
@@ -152,7 +154,7 @@ pkg_build(
     ## ● _R_CHECK_FORCE_SUGGESTS_          : FALSE
     ## ● NOT_CRAN                          : true
     ## ── R CMD check ─────────────────────────────────────────────────────────────────
-    ## * using log directory ‘/tmp/RtmpmylLTH/boilerplatePackage.Rcheck’
+    ## * using log directory ‘/tmp/Rtmp4x0M7A/boilerplatePackage.Rcheck’
     ## * using R version 4.0.0 (2020-04-24)
     ## * using platform: x86_64-pc-linux-gnu (64-bit)
     ## * using session charset: UTF-8
@@ -221,13 +223,13 @@ pkg_build(
     ## 
     ##      checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’ ...  ✔  checking for file ‘/media/jeksterslab/scripts/r/build_boilerplatePackage/boilerplatePackage/DESCRIPTION’
     ##   ─  preparing ‘boilerplatePackage’:
-    ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+    ##    checking      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  checking for LF line-endings in source and make files and shell scripts
     ##   ─  checking for empty or unneeded directories
     ##   ─  building ‘boilerplatePackage_0.9.0.tar.gz’
     ##      
     ## Running /usr/lib64/R/bin/R CMD INSTALL \
-    ##   /tmp/RtmpmylLTH/boilerplatePackage_0.9.0.tar.gz --install-tests 
+    ##   /tmp/Rtmp4x0M7A/boilerplatePackage_0.9.0.tar.gz --install-tests 
     ## * installing to library ‘/home/jek/R/x86_64-pc-linux-gnu/4.0’
     ## * installing *source* package ‘boilerplatePackage’ ...
     ## ** using staged installation
