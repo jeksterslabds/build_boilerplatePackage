@@ -14,6 +14,8 @@ jobs:
     os: osx
 addons:
   apt:
+    sources:
+    - ppa:cpick/hub
     update: true
     packages:
     - hub
