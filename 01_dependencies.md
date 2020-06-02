@@ -1,7 +1,7 @@
 Install Dependencies before Creating boilerplatePackage
 ================
 Ivan Jacob Agaloos Pesigan
-2020-06-01
+2020-06-02
 
 ``` r
 dir <- Sys.getenv("HOME")
@@ -41,12 +41,12 @@ remotes::install_github(
     ## Downloading GitHub repo jeksterslabds/jeksterslabRpkg@master
 
     ## 
-    ##      checking for file ‘/tmp/RtmpQbpdF9/remotes511a4144e06e/jeksterslabds-jeksterslabRpkg-ada7533/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpQbpdF9/remotes511a4144e06e/jeksterslabds-jeksterslabRpkg-ada7533/DESCRIPTION’
+    ##      checking for file ‘/tmp/RtmpfKnEn3/remotes23db9b2a0788/jeksterslabds-jeksterslabRpkg-fa79457/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpfKnEn3/remotes23db9b2a0788/jeksterslabds-jeksterslabRpkg-fa79457/DESCRIPTION’
     ##   ─  preparing ‘jeksterslabRpkg’:
-    ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+    ##    checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  checking for LF line-endings in source and make files and shell scripts
     ##   ─  checking for empty or unneeded directories
-    ##   ─  building ‘jeksterslabRpkg_0.9.0.tar.gz’
+    ## ─  building ‘jeksterslabRpkg_0.9.0.tar.gz’
     ##      
     ## 
 

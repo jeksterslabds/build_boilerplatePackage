@@ -1,7 +1,7 @@
 Create boilerplatePackage
 ================
 Ivan Jacob Agaloos Pesigan
-2020-06-01
+2020-06-02
 
   - [Create a Boilerplate `R`
     Package.](#create-a-boilerplate-r-package.)
